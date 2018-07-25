@@ -23,6 +23,7 @@ const data = {
         'AWS Metrics (MEAN + Python)': '',
         'Customer Onboarding Wizard':''
     },
+    'Technical Skills': '',
     'Professional Experience': {
         'Teradata': {
             '1': {
@@ -83,9 +84,12 @@ const data = {
     },
 
     'Accomplishments': {
-        '1': '',
-        '2': '',
-        '3': ''
+        '1st Prize Teradata AI Hackathon': '',
+        '2nd Prize Teradata Service Analytics Hackathon': '',
+        '5th Position Teradata UI/UX Hackathon': '',
+        'Patent Co-author (Invention Disclosure Report)':'',
+        'AWS Certified Solution Architect': '',
+        'Certified Scrum Master':''
     },
     'Machine Learning/Finance': {
         '1': '',
@@ -209,26 +213,7 @@ const styles = theme => ({
 })
 
 
-// const mailFolderListItems = Object.keys(data).map(d=>(
-//     <ExpansionPanel>
-//         <ExpansionPanelSummary
-//             classes={{
-//                 root: classes.root, // class name, e.g. `classes-nesting-root-x`
-//                 label: classes.label, // class name, e.g. `classes-nesting-label-x`
-//             }}
-//         >
-//                 <ListItem button>
-//
-//                     <ListItemText primary={d}/>
-//                 </ListItem>
-//         </ExpansionPanelSummary>
-//         <ExpansionPanelDetails style={{backgroundColor: '#fcfcfc'}}>
-//             "sdfdfsdf"
-//
-//         </ExpansionPanelDetails>
-//     </ExpansionPanel>
-//
-// ))
+
 
 export const otherMailFolderListItems = Object.keys(misc).map(m => (
     <div>

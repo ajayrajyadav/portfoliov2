@@ -31,6 +31,14 @@ import AwsMetrics from "./components/AwsMetrics";
 import ReadIt from "./components/ReadIt";
 import BooksApp from "./components/MyReads/BooksApp";
 import CustomerOnboarding from "./components/CustomerOnboarding";
+import TechnicalSkills from "./components/TechnicalSkills";
+import {changeActiveSubCategory, getNavbarData} from "./actions/index";
+import AiHackathon from "./components/AiHackathon";
+import ServiceAnalyticsHackathon from "./components/ServiceAnalyticsHackathon";
+import UiHackathon from "./components/UiHackathon";
+import Patent from "./components/Patent";
+import AwsCsa from "./components/AwsCsa";
+import Csa from "./components/Csa";
 
 
 const drawerWidth = 240;
@@ -78,43 +86,28 @@ const styles = theme => ({
 class NavDrawer extends React.Component {
     state = {
         mobileOpen: false,
-        activeSubCategory: ''
+        activeSubCategory: '',
+        navbarData:''
     };
 
     handleDrawerToggle = () => {
         this.setState(state => ({mobileOpen: !state.mobileOpen}));
     };
 
-    // componentDidUpdate(prevProps) {
-    //     // console.log(this.props)
-    //     // Typical usage (don't forget to compare props):
-    //     // console.log('---START-----')
-    //     //
-    //     // console.log("prev props",prevProps.activeMainCategory)
-    //     // console.log("this props",this.props.activeMainCategory)
-    //     // console.log('---')
-    //     // console.log("prev props",prevProps.activeSubCategory)
-    //     // console.log("this props",this.props.activeSubCategory)
-    //     // console.log("State",this.state.activeSubCategory)
-    //     //
-    //     // console.log('---END-----')
-    //
-    //
-    //
-    //
-    //
-    //     if (prevProps.location.pathname !== this.props.location.pathname) {
-    //         console.log("CHANGED")
-    //         // console.log(this.props.activeSubCategory)
-    //         // console.log(prevProps.activeSubCategory)
-    //         this.setState({activeSubCategory:'Teradata'})
-    //
-    //     }
-    // }
+    componentDidMount(){
+        this.props.getNavbarData()
+    }
+
+    routes=()=>{
+
+    }
+
+
 
     render() {
         const {classes, theme} = this.props;
         console.log("~~~~~~~RENDERRRR~~~~~~`", this.props.activeMainCategory, this.props.activeSubCategory)
+        console.log("navbard data ^^^^^",this.props.navbarData)
 
 
         const drawer = (
@@ -130,6 +123,7 @@ class NavDrawer extends React.Component {
             </div>
         );
         return (
+
             <div className={classes.root}>
                 <AppBar className={classes.appBar}>
                     <Toolbar>
@@ -155,11 +149,12 @@ class NavDrawer extends React.Component {
                 <main className={classes.content}>
                     <div className={classes.toolbar}/>
 
-
                     <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('React/Redux AWS Serverless')}`} component={ReadIt}/>
                     <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('React My Books App')}`} component={BooksRead}/>
                     <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('AWS Metrics (MEAN Python)')}`} component={AwsMetrics}/>
                     <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('Customer Onboarding Wizard')}`} component={CustomerOnboarding}/>
+
+                    <Route exact path={`/portfolio/${slug('Technical Skills')}`} component={TechnicalSkills}/>
 
 
 
@@ -172,7 +167,14 @@ class NavDrawer extends React.Component {
                     <Route exact path={`/portfolio/${slug('Time Line')}/${slug('Work')}`} component={TimeLineWork}/>
                     <Route exact path={`/portfolio/${slug('Time Line')}/${slug('Personal')}`} component={TimeLinePersonal}/>
 
-                    <Route exact path={`/portfolio/${slug('Accomplishments')}`} component={Accomplishments}/>
+                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('1st Prize Teradata AI Hackathon')}`} component={AiHackathon}/>
+                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('2nd Prize Teradata Service Analytics Hackathon')}`} component={ServiceAnalyticsHackathon}/>
+                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('5th Position Teradata UI/UX Hackathon')}`} component={UiHackathon}/>
+                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('Patent Co-author (Invention Disclosure Report)')}`} component={Patent}/>
+                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('AWS Certified Solution Architect')}`} component={AwsCsa}/>
+                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('Certified Scrum Master')}`} component={Csa}/>
+
+
 
                     <Route exact path={`/portfolio/${slug('Machine Learning/Finance')}/${slug('1')}`} component={Jupyterr}/>
                     <Route exact path={`/portfolio/${slug('Machine Learning/Finance')}/${slug('2')}`} component={Jupyterr}/>
@@ -202,9 +204,16 @@ NavDrawer.propTypes = {
 const mapStateToProps = (state) => {
     return {
         activeMainCategory: state.activeMainCategory,
-        activeSubCategory: state.activeSubCategory
+        activeSubCategory: state.activeSubCategory,
+        navbarData:state.navbarData
 
     }
 }
+const mapDispatchToProps = (dispatch) => ({
 
-export default connect(mapStateToProps, null)(withStyles(styles, {withTheme: true})(NavDrawer));
+    getNavbarData: () => dispatch(getNavbarData()),
+    changeActiveSubCategory: (subCategory)=> dispatch(changeActiveSubCategory(subCategory))
+
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles, {withTheme: true})(NavDrawer));
