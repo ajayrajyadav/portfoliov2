@@ -150,7 +150,8 @@ class NavDrawer extends React.Component {
                     <div className={classes.toolbar}/>
 
                     <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}`} component={ReadIt}/>
-                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('My Books\n(React)')}`} component={BooksRead}/>
+                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('My Books\n(React)')}`} component={BooksApp}/>
+
                     <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('AWS Metrics Dashboard\n(MEAN + Python)')}`} component={AwsMetrics}/>
                     <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('Customer Onboarding Wizard\n(React)')}`} component={CustomerOnboarding}/>
 
@@ -184,7 +185,9 @@ class NavDrawer extends React.Component {
 
                     <Route exact path={`/portfolio/${slug('Education')}`} component={Education}/>
 
-                    <Route exact path={`/portfolio/${slug('Books Read')}`} component={BooksRead}/>
+                    <Route exact path={`/portfolio/${slug('Books Read')}`} component={BooksApp}/>
+                    <Route exact path={`/portfolio/${slug('Books Read')}/search`} component={BooksApp}/>
+
 
                     <Route exact path={`/portfolio/${slug('About Me')}`} component={AboutMe}/>
 

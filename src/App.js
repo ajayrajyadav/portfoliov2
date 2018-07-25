@@ -43,7 +43,7 @@ class App extends Component {
                 <div>
 
                     <Switch>
-                        <Route path='/portfolio/r' component={BooksApp}/>
+                        {/*<Route path='/portfolio/r' component={BooksApp}/>*/}
 
                         <Route path='/portfolio' component={NavDrawer}/>
 

@@ -79,7 +79,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5007899">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.36927933">
+        <splitter split-orientation="horizontal" split-proportion="0.47869542">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="Bookshelves.js" pinned="false" current-in-tab="false">
@@ -107,7 +107,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="NavData.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="NavData.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/NavData.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="467">
@@ -130,11 +130,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="BooksApp.js" pinned="false" current-in-tab="false">
+              <file leaf-file-name="BooksApp.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksApp.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="561">
-                      <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+                    <state relative-caret-position="325">
+                      <caret line="92" column="30" lean-forward="false" selection-start-line="92" selection-start-column="30" selection-end-line="92" selection-end-column="30" />
                       <folding>
                         <element signature="e#0#38#0" expanded="true" />
                       </folding>
@@ -146,11 +146,11 @@
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="NavDrawer.js" pinned="false" current-in-tab="false">
+              <file leaf-file-name="NavDrawer.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="351">
-                      <caret line="167" column="124" lean-forward="true" selection-start-line="167" selection-start-column="124" selection-end-line="167" selection-end-column="124" />
+                    <state relative-caret-position="730">
+                      <caret line="188" column="73" lean-forward="false" selection-start-line="188" selection-start-column="73" selection-end-line="188" selection-end-column="73" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                         <element signature="e#2085#3060#0" expanded="false" />
@@ -183,7 +183,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="Education.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="Education.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/Education.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="340">
@@ -223,7 +223,7 @@
                 <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksApp.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="1156">
-                      <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
+                      <caret line="69" column="9" lean-forward="false" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
                       <folding>
                         <element signature="e#0#38#0" expanded="true" />
                       </folding>
@@ -235,7 +235,7 @@
                 <entry file="file://$PROJECT_DIR$/src/components/MyReads/MyReads.css">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="807">
-                      <caret line="179" column="13" lean-forward="true" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
+                      <caret line="176" column="13" lean-forward="true" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
                       <folding />
                     </state>
                   </provider>
@@ -270,14 +270,14 @@
         </splitter>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.5579128">
+        <splitter split-orientation="horizontal" split-proportion="0.50052744">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/App.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="0">
-                      <caret line="70" column="21" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="70" selection-end-column="21" />
+                    <state relative-caret-position="484">
+                      <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
                       <folding>
                         <element signature="e#0#39#0" expanded="true" />
                       </folding>
@@ -288,7 +288,7 @@
               <file leaf-file-name="Teradata.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/Teradata.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="2023">
+                    <state relative-caret-position="21">
                       <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="137" selection-end-column="34" />
                       <folding>
                         <element signature="e#4020#4596#0" expanded="false" />
@@ -300,8 +300,8 @@
               <file leaf-file-name="SearchBooks.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/MyReads/SearchBooks.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="561">
-                      <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+                    <state relative-caret-position="323">
+                      <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
                       <folding>
                         <element signature="e#0#38#0" expanded="true" />
                       </folding>
@@ -312,7 +312,7 @@
               <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/App.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="3077">
+                    <state relative-caret-position="784">
                       <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
                       <folding />
                     </state>
@@ -329,7 +329,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="SkillsBars.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="SkillsBars.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/SkillsBars.js">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="629">
@@ -339,10 +339,46 @@
                   </provider>
                 </entry>
               </file>
+              <file leaf-file-name="ListBooks.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/components/MyReads/ListBooks.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="1054">
+                      <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="BooksApp.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksApp.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="716">
+                      <caret line="116" column="59" lean-forward="true" selection-start-line="116" selection-start-column="59" selection-end-line="116" selection-end-column="59" />
+                      <folding>
+                        <element signature="e#0#38#0" expanded="true" />
+                        <marker date="1532561643000" expanded="true" signature="2706:2898" ph="..." />
+                        <marker date="1532561643000" expanded="true" signature="2706:3896" ph="..." />
+                        <marker date="1532561643000" expanded="true" signature="3475:3567" ph="..." />
+                        <marker date="1532561643000" expanded="true" signature="3627:3775" ph="..." />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
             </leaf>
           </split-first>
           <split-second>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+              <file leaf-file-name="MyReads.css" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/components/MyReads/MyReads.css">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="135">
+                      <caret line="110" column="20" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+                      <folding />
+                    </state>
+                  </provider>
+                </entry>
+              </file>
               <file leaf-file-name="Bookshelves.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/MyReads/Bookshelves.js">
                   <provider selected="true" editor-type-id="text-editor">
@@ -355,11 +391,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="BooksRead.js" pinned="false" current-in-tab="false">
+              <file leaf-file-name="BooksRead.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/components/BooksRead.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="374">
-                      <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="43" />
+                    <state relative-caret-position="536">
+                      <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -367,10 +403,10 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="ReadIt.js" pinned="false" current-in-tab="true">
+              <file leaf-file-name="ReadIt.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/ReadIt.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="819">
+                    <state relative-caret-position="1138">
                       <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="42" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
@@ -395,8 +431,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>../actions/authAction</find>
-      <find>&lt;Route</find>
       <find>path={`/${slug</find>
       <find>==</find>
       <find>changeAc</find>
@@ -425,6 +459,8 @@
       <find>/r1</find>
       <find>padding</find>
       <find>Technical Skills</find>
+      <find>Searc</find>
+      <find>portfolio/r</find>
     </findStrings>
     <replaceStrings>
       <replace>#275484</replace>
@@ -479,11 +515,8 @@
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/BooksRead.js" />
         <option value="$PROJECT_DIR$/src/components/MyReads/Bookshelves.js" />
-        <option value="$PROJECT_DIR$/src/components/MyReads/SearchBooks.js" />
-        <option value="$PROJECT_DIR$/src/components/MyReads/ListBooks.js" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
         <option value="$PROJECT_DIR$/src/components/AwsMetrics.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/CustomerOnboarding.js" />
         <option value="$PROJECT_DIR$/src/components/Teradata.js" />
         <option value="$PROJECT_DIR$/src/components/Alliacense.js" />
@@ -502,14 +535,17 @@
         <option value="$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js" />
         <option value="$PROJECT_DIR$/src/components/Patent.js" />
         <option value="$PROJECT_DIR$/src/components/UiHackathon.js" />
-        <option value="$PROJECT_DIR$/src/components/MyReads/BooksApp.js" />
-        <option value="$PROJECT_DIR$/src/components/MyReads/MyReads.css" />
         <option value="$PROJECT_DIR$/src/components/AboutMe.js" />
         <option value="$PROJECT_DIR$/src/NavData.js" />
         <option value="$PROJECT_DIR$/src/components/Csa.js" />
-        <option value="$PROJECT_DIR$/src/NavDrawer.js" />
         <option value="$PROJECT_DIR$/src/components/AwsCsa.js" />
         <option value="$PROJECT_DIR$/src/components/Education.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/MyReads/SearchBooks.js" />
+        <option value="$PROJECT_DIR$/src/components/MyReads/MyReads.css" />
+        <option value="$PROJECT_DIR$/src/components/MyReads/ListBooks.js" />
+        <option value="$PROJECT_DIR$/src/NavDrawer.js" />
+        <option value="$PROJECT_DIR$/src/components/MyReads/BooksApp.js" />
       </list>
     </option>
   </component>
@@ -651,26 +687,28 @@
       <workItem from="1531789161152" duration="1595000" />
       <workItem from="1531848186740" duration="26984000" />
       <workItem from="1531932019866" duration="60803000" />
-      <workItem from="1532540247140" duration="10623000" />
+      <workItem from="1532540247140" duration="15182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101302000" />
+    <option name="totallyTimeSpent" value="105861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1354" y="-1080" width="3840" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03659821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.05279188" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18984772" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -679,7 +717,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -727,6 +764,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="62" lean-forward="false" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="77" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -776,6 +814,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -820,26 +859,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BooksRead.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyReads/ListBooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="66" column="45" lean-forward="false" selection-start-line="66" selection-start-column="45" selection-end-line="66" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MyReads/Bookshelves.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -862,6 +881,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -878,26 +900,6 @@
     <entry file="file://$PROJECT_DIR$/src/components/assets/r2/2.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyReads/SearchBooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="70" column="21" lean-forward="false" selection-start-line="53" selection-start-column="23" selection-end-line="70" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AwsMetrics.js">
@@ -943,14 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3077">
-          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -964,16 +958,6 @@
         <state relative-caret-position="221">
           <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ReadIt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="819">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1013,16 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Teradata.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2023">
-          <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="137" selection-end-column="34" />
-          <folding>
-            <element signature="e#4020#4596#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Resume.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1057,39 +1031,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1156">
-          <caret line="68" column="9" lean-forward="false" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyReads/MyReads.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="179" column="13" lean-forward="true" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SkillsBars.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
           <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Patent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1099,17 +1045,6 @@
           <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NavData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="90" column="25" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
-          <folding>
-            <element signature="e#3040#3061#0" expanded="false" />
-            <element signature="e#3982#5259#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1130,17 +1065,6 @@
           <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="167" column="124" lean-forward="true" selection-start-line="167" selection-start-column="124" selection-end-line="167" selection-end-column="124" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#2085#3060#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1171,6 +1095,126 @@
           <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ReadIt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1138">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NavData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="90" column="25" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+          <folding>
+            <element signature="e#3040#3061#0" expanded="false" />
+            <element signature="e#3982#5259#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Patent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyReads/SearchBooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyReads/MyReads.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="807">
+          <caret line="176" column="13" lean-forward="true" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Teradata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="137" selection-end-column="34" />
+          <folding>
+            <element signature="e#4020#4596#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BooksRead.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyReads/ListBooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="730">
+          <caret line="188" column="73" lean-forward="false" selection-start-line="188" selection-start-column="73" selection-end-line="188" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#2085#3060#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="116" column="59" lean-forward="true" selection-start-line="116" selection-start-column="59" selection-end-line="116" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+            <marker date="1532561643000" expanded="true" signature="2706:2898" ph="..." />
+            <marker date="1532561643000" expanded="true" signature="2706:3896" ph="..." />
+            <marker date="1532561643000" expanded="true" signature="3475:3567" ph="..." />
+            <marker date="1532561643000" expanded="true" signature="3627:3775" ph="..." />
           </folding>
         </state>
       </provider>
