@@ -51,24 +51,24 @@ class App extends Component {
 
 
 
-                        {/*{*/}
+                        {
 
-                        {/*(Object.keys(this.props.authUser).length === 0) ?*/}
-                            {/*<div className={'backg'}>*/}
-                                {/*<Route exact path='/wa' component={SignIn}/>*/}
-                                {/*<Route exact path='/wa/signin' component={SignIn}/>*/}
+                        (Object.keys(this.props.authUser).length === 0) ?
+                            <div className={'backg'}>
+                                <Route exact path='/wa' component={SignIn}/>
+                                <Route exact path='/wa/signin' component={SignIn}/>
 
-                                {/*<Route exact path='/wa/signup' component={SignUp}/>*/}
-                                {/*<Route  exact path="/wa/verification" component={Verification}/>*/}
-                            {/*</div>*/}
-                            {/*:*/}
-                                {/*<Route exact path='/wa/:categoryId?/:postId?' render={(props) =>*/}
-                                    {/*<div className={"app-containerr"}>*/}
-                                        {/*<Category {...props}/>*/}
-                                        {/*<Post {...props}/>*/}
-                                        {/*<PostSummary1 {...props}/>*/}
-                                    {/*</div>}/>*/}
-                    {/*}*/}
+                                <Route exact path='/wa/signup' component={SignUp}/>
+                                <Route  exact path="/wa/verification" component={Verification}/>
+                            </div>
+                            :
+                                <Route exact path='/wa/:categoryId?/:postId?' render={(props) =>
+                                    <div className={"app-containerr"}>
+                                        <Category {...props}/>
+                                        <Post {...props}/>
+                                        <PostSummary1 {...props}/>
+                                    </div>}/>
+                    }
 
                     </Switch>
 

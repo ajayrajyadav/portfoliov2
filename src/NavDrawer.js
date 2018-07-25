@@ -136,7 +136,7 @@ class NavDrawer extends React.Component {
                                     className={classes.navIconHide}>
                             <MenuIcon/>
                         </IconButton>
-                        <Typography variant="title" color="inherit" noWrap>Karan Sagoo</Typography>
+                        <Typography variant="title" color="inherit" noWrap>Google</Typography>
                     </Toolbar>
                 </AppBar>
                 <Hidden mdUp>
