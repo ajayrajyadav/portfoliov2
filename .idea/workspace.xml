@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c6c9966-db87-46f8-acac-fe8aee0ad00d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/assets/csa-badge.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/AiHackathon.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/AwsCsa.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Csa.js" />
@@ -56,6 +57,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Alliacense.js" afterPath="$PROJECT_DIR$/src/components/Alliacense.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AwsMetrics.js" afterPath="$PROJECT_DIR$/src/components/AwsMetrics.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/BooksRead.js" afterPath="$PROJECT_DIR$/src/components/BooksRead.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Education.js" afterPath="$PROJECT_DIR$/src/components/Education.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header.js" afterPath="$PROJECT_DIR$/src/components/Header.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MediaCard.js" afterPath="$PROJECT_DIR$/src/components/MediaCard.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ReadIt.js" afterPath="$PROJECT_DIR$/src/components/ReadIt.js" />
@@ -77,7 +79,7 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5007899">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.29445398">
+        <splitter split-orientation="horizontal" split-proportion="0.36927933">
           <split-first>
             <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
               <file leaf-file-name="Bookshelves.js" pinned="false" current-in-tab="false">
@@ -108,11 +110,11 @@
               <file leaf-file-name="NavData.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/NavData.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="243">
-                      <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="31" />
+                    <state relative-caret-position="467">
+                      <caret line="90" column="25" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
                       <folding>
-                        <element signature="e#2963#2984#0" expanded="false" />
-                        <element signature="e#3905#5182#0" expanded="false" />
+                        <element signature="e#3040#3061#0" expanded="false" />
+                        <element signature="e#3982#5259#0" expanded="false" />
                       </folding>
                     </state>
                   </provider>
@@ -147,8 +149,8 @@
               <file leaf-file-name="NavDrawer.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="608">
-                      <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+                    <state relative-caret-position="351">
+                      <caret line="167" column="124" lean-forward="true" selection-start-line="167" selection-start-column="124" selection-end-line="167" selection-end-column="124" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                         <element signature="e#2085#3060#0" expanded="false" />
@@ -172,8 +174,20 @@
               <file leaf-file-name="AwsCsa.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/AwsCsa.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="663">
-                      <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+                    <state relative-caret-position="476">
+                      <caret line="28" column="22" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="28" selection-end-column="22" />
+                      <folding>
+                        <element signature="e#0#26#0" expanded="true" />
+                      </folding>
+                    </state>
+                  </provider>
+                </entry>
+              </file>
+              <file leaf-file-name="Education.js" pinned="false" current-in-tab="true">
+                <entry file="file://$PROJECT_DIR$/src/components/Education.js">
+                  <provider selected="true" editor-type-id="text-editor">
+                    <state relative-caret-position="340">
+                      <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -196,8 +210,8 @@
               <file leaf-file-name="AiHackathon.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/AiHackathon.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="306">
-                      <caret line="18" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+                    <state relative-caret-position="391">
+                      <caret line="23" column="67" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="23" selection-end-column="67" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -217,21 +231,21 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="MyReads.css" pinned="false" current-in-tab="true">
+              <file leaf-file-name="MyReads.css" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/MyReads/MyReads.css">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="385">
-                      <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+                    <state relative-caret-position="807">
+                      <caret line="179" column="13" lean-forward="true" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="ServiceAnalyticsHackathon.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js">
+              <file leaf-file-name="AboutMe.js" pinned="false" current-in-tab="false">
+                <entry file="file://$PROJECT_DIR$/src/components/AboutMe.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="527">
-                      <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+                    <state relative-caret-position="390">
+                      <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -239,21 +253,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="BooksAPI.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksAPI.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="170">
-                      <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
               <file leaf-file-name="Csa.js" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/components/Csa.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="544">
-                      <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+                    <state relative-caret-position="493">
+                      <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
                       <folding>
                         <element signature="e#0#26#0" expanded="true" />
                       </folding>
@@ -328,8 +332,8 @@
               <file leaf-file-name="SkillsBars.js" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/components/SkillsBars.js">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="527">
-                      <caret line="32" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+                    <state relative-caret-position="629">
+                      <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
                       <folding />
                     </state>
                   </provider>
@@ -455,7 +459,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/reducers/readItReducers/categoriesReducer.js" />
         <option value="$PROJECT_DIR$/src/reducers/readItReducers/commentsReducer.js" />
         <option value="$PROJECT_DIR$/src/reducers/readItReducers/postsReducer.js" />
         <option value="$PROJECT_DIR$/src/components/TimeLinePersonal.js" />
@@ -491,21 +494,22 @@
         <option value="$PROJECT_DIR$/src/components/skills.scss" />
         <option value="$PROJECT_DIR$/src/components/skills.css" />
         <option value="$PROJECT_DIR$/src/components/SkillsBars.js" />
-        <option value="$PROJECT_DIR$/src/components/AboutMe.js" />
         <option value="$PROJECT_DIR$/src/components/TechnicalSkills.js" />
         <option value="$PROJECT_DIR$/src/actions/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/navbarData.js" />
-        <option value="$PROJECT_DIR$/src/NavData.js" />
         <option value="$PROJECT_DIR$/src/components/AiHackathon.js" />
         <option value="$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js" />
         <option value="$PROJECT_DIR$/src/components/Patent.js" />
-        <option value="$PROJECT_DIR$/src/components/AwsCsa.js" />
         <option value="$PROJECT_DIR$/src/components/UiHackathon.js" />
-        <option value="$PROJECT_DIR$/src/NavDrawer.js" />
-        <option value="$PROJECT_DIR$/src/components/Csa.js" />
         <option value="$PROJECT_DIR$/src/components/MyReads/BooksApp.js" />
         <option value="$PROJECT_DIR$/src/components/MyReads/MyReads.css" />
+        <option value="$PROJECT_DIR$/src/components/AboutMe.js" />
+        <option value="$PROJECT_DIR$/src/NavData.js" />
+        <option value="$PROJECT_DIR$/src/components/Csa.js" />
+        <option value="$PROJECT_DIR$/src/NavDrawer.js" />
+        <option value="$PROJECT_DIR$/src/components/AwsCsa.js" />
+        <option value="$PROJECT_DIR$/src/components/Education.js" />
       </list>
     </option>
   </component>
@@ -573,6 +577,13 @@
               <item name="port2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="MyReads" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -599,18 +610,18 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/MyReads" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/node_modules/react-phone-number-input" />
-      <recent name="$PROJECT_DIR$/src/components/readItComponents" />
-      <recent name="$PROJECT_DIR$/src/reducers/readItReducers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/assets" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/assets" />
+      <recent name="$PROJECT_DIR$/src/components/MyReads" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/node_modules/react-phone-number-input" />
+      <recent name="$PROJECT_DIR$/src/components/readItComponents" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -640,19 +651,18 @@
       <workItem from="1531789161152" duration="1595000" />
       <workItem from="1531848186740" duration="26984000" />
       <workItem from="1531932019866" duration="60803000" />
-      <workItem from="1532540247140" duration="6533000" />
+      <workItem from="1532540247140" duration="10623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97212000" />
+    <option name="totallyTimeSpent" value="101302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1354" y="-1080" width="3840" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.080042124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03659821" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -660,7 +670,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.018274112" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18984772" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -708,13 +718,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/icons/ArrowForward.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/assets/react_serverless_full_stack_app/1.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -851,6 +854,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -865,6 +869,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -960,24 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SkillsBars.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="32" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AboutMe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="68" lean-forward="true" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ReadIt.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="819">
@@ -1050,82 +1039,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NavData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="31" />
-          <folding>
-            <element signature="e#2963#2984#0" expanded="false" />
-            <element signature="e#3905#5182#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AiHackathon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Patent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UiHackathon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#2085#3060#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Csa.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="29" lean-forward="true" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AwsCsa.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1152,9 +1069,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/MyReads/MyReads.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        <state relative-caret-position="807">
+          <caret line="179" column="13" lean-forward="true" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SkillsBars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Patent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AboutMe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NavData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="90" column="25" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
+          <folding>
+            <element signature="e#3040#3061#0" expanded="false" />
+            <element signature="e#3982#5259#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AiHackathon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="67" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="23" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Csa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="167" column="124" lean-forward="true" selection-start-line="167" selection-start-column="124" selection-end-line="167" selection-end-column="124" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#2085#3060#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UiHackathon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AwsCsa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="22" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="28" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Education.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

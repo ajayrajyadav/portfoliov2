@@ -18,10 +18,11 @@ import slug from 'slug'
 
 const data = {
     'Web Apps': {
-        'React/Redux AWS Serverless': '',
-        'React My Books App':'',
-        'AWS Metrics (MEAN + Python)': '',
-        'Customer Onboarding Wizard':''
+        'ReadIt!\n(AWS Serverless, React, Redux)': '',
+        'My Books\n(React)':'',
+        'AWS Metrics Dashboard\n(MEAN + Python)': '',
+        'Customer Onboarding Wizard\n(React)':'',
+        'This App  ❤️\n(React/Redux)':''
     },
     'Technical Skills': '',
     'Professional Experience': {
@@ -85,9 +86,9 @@ const data = {
 
     'Accomplishments': {
         '1st Prize Teradata AI Hackathon': '',
-        '2nd Prize Teradata Service Analytics Hackathon': '',
-        '5th Position Teradata UI/UX Hackathon': '',
-        'Patent Co-author (Invention Disclosure Report)':'',
+        '2nd Prize Teradata\nService Analytics Hackathon': '',
+        '5th Position Teradata\nUI/UX Hackathon': '',
+        'Patent Co-author\n(Invention Disclosure Report)':'',
         'AWS Certified Solution Architect': '',
         'Certified Scrum Master':''
     },
@@ -248,9 +249,10 @@ class NavData extends React.Component {
                 </ExpansionPanelSummary>
                 {
                     Object.keys(data[d]).map(subItem => (
-                        <ExpansionPanelDetails>
+                        <ExpansionPanelDetails >
 
-                            <Button  component={Link} to={`/portfolio/${slug(d)}/${slug(subItem)}`} size="small" fullWidth={'true'} classes={{root: classes.mainep}} onClick={()=>this.props.changeActiveSubCategory(subItem)}>
+                            <Button  component={Link} to={`/portfolio/${slug(d)}/${slug(subItem)}`} size="small" fullWidth={'true'} classes={{root: classes.mainep}} style={{whiteSpace:'pre'}} onClick={()=>this.props.changeActiveSubCategory(subItem)}>
+
                                     {subItem}
                             </Button>
 

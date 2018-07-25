@@ -149,10 +149,10 @@ class NavDrawer extends React.Component {
                 <main className={classes.content}>
                     <div className={classes.toolbar}/>
 
-                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('React/Redux AWS Serverless')}`} component={ReadIt}/>
-                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('React My Books App')}`} component={BooksRead}/>
-                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('AWS Metrics (MEAN Python)')}`} component={AwsMetrics}/>
-                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('Customer Onboarding Wizard')}`} component={CustomerOnboarding}/>
+                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}`} component={ReadIt}/>
+                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('My Books\n(React)')}`} component={BooksRead}/>
+                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('AWS Metrics Dashboard\n(MEAN + Python)')}`} component={AwsMetrics}/>
+                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('Customer Onboarding Wizard\n(React)')}`} component={CustomerOnboarding}/>
 
                     <Route exact path={`/portfolio/${slug('Technical Skills')}`} component={TechnicalSkills}/>
 
