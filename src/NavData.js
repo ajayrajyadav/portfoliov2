@@ -21,6 +21,7 @@ const data = {
         'React/Redux AWS Serverless': '',
         'React My Books App':'',
         'AWS Metrics (MEAN + Python)': '',
+        'Customer Onboarding Wizard':''
     },
     'Professional Experience': {
         'Teradata': {
