@@ -3,7 +3,7 @@ import './App.css';
 import NavDrawer from "./NavDrawer";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
-import {Auth, API} from "aws-amplify";
+import {Auth} from "aws-amplify";
 import SignIn from "./components/readItComponents/auth/SignIn/SignIn";
 import SignUp from "./components/readItComponents/auth/SignUp/SignUp";
 import {Verification} from "./components/readItComponents/auth/Verification/Verification";
@@ -13,23 +13,14 @@ import PostSummary1 from "./components/readItComponents/PostDisplay/PostSummary/
 import {addAuthUser} from "./actions/readitActions/authAction";
 import connect from "react-redux/es/connect/connect";
 import BooksApp from "./components/MyReads/BooksApp";
+import * as slug from "slug";
 
 
 class App extends Component {
-    state = {
-        sectionOne: null,
-        sectionTwo: null,
-        sectionThree: null
-    }
-    onSubmit = (sectionName, category) => {
-        console.log("in onsumbit", sectionName, category)
-        this.setState({[sectionName]: category})
-    }
 
     async componentDidMount() {
         const session = await Auth.currentSession()
         console.log("sessions is")
-
         console.log(session)
         this.props.addAuthUser(session.idToken.payload['cognito:username'])
     }
@@ -41,36 +32,29 @@ class App extends Component {
             <Router>
                 {/*<NavDrawer/>*/}
                 <div>
-
-                    <Switch>
-                        {/*<Route path='/portfolio/r' component={BooksApp}/>*/}
-
-                        <Route path='/portfolio' component={NavDrawer}/>
+                    <Route path='/portfolio' component={NavDrawer}/>
 
 
+                    {/*<Switch>*/}
+                        {/*/!*<Route path='/portfolio/r' component={BooksApp}/>*!/*/}
+
+                        {/*<Route*/}
+                            {/*path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/:categoryId?/:postId?`}*/}
+                            {/*render={(props) =>*/}
+                               {/*<div className={"app-containerr"}>*/}
+
+                                    {/*<Category {...props}/>*/}
+                                    {/*<Post {...props}/>*/}
+                                    {/*<PostSummary1 {...props}/>*/}
+
+                                {/*</div>}/>*/}
 
 
 
-                        {
 
-                        (Object.keys(this.props.authUser).length === 0) ?
-                            <div className={'backg'}>
-                                <Route exact path='/wa' component={SignIn}/>
-                                <Route exact path='/wa/signin' component={SignIn}/>
 
-                                <Route exact path='/wa/signup' component={SignUp}/>
-                                <Route  exact path="/wa/verification" component={Verification}/>
-                            </div>
-                            :
-                                <Route exact path='/wa/:categoryId?/:postId?' render={(props) =>
-                                    <div className={"app-containerr"}>
-                                        <Category {...props}/>
-                                        <Post {...props}/>
-                                        <PostSummary1 {...props}/>
-                                    </div>}/>
-                    }
 
-                    </Switch>
+                    {/*</Switch>*/}
 
 
                 </div>

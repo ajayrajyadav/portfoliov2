@@ -13,6 +13,8 @@ import MenuIcon from '@material-ui/icons/Menu';
 import NavData from './NavData';
 import Teradata from "./components/Teradata";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {Auth} from "aws-amplify";
+
 import * as slug from "slug";
 import connect from "react-redux/es/connect/connect";
 import TimeLineWork from "./components/TimeLineWork";
@@ -39,6 +41,15 @@ import UiHackathon from "./components/UiHackathon";
 import Patent from "./components/Patent";
 import AwsCsa from "./components/AwsCsa";
 import Csa from "./components/Csa";
+import Category from "./components/readItComponents/Category/Category";
+import Post from "./components/readItComponents/Posts/Post/Post";
+import PostSummary1 from "./components/readItComponents/PostDisplay/PostSummary/PostSummar1";
+import {addAuthUser} from "./actions/readitActions/authAction";
+import './App.css'
+import SignIn from "./components/readItComponents/auth/SignIn/SignIn";
+import SignUp from "./components/readItComponents/auth/SignUp/SignUp";
+import {Verification} from "./components/readItComponents/auth/Verification/Verification";
+import Paper from "@material-ui/core/es/Paper/Paper";
 
 
 const drawerWidth = 240;
@@ -87,27 +98,28 @@ class NavDrawer extends React.Component {
     state = {
         mobileOpen: false,
         activeSubCategory: '',
-        navbarData:''
+        navbarData: ''
     };
 
     handleDrawerToggle = () => {
         this.setState(state => ({mobileOpen: !state.mobileOpen}));
     };
 
-    componentDidMount(){
+
+    async componentDidMount() {
         this.props.getNavbarData()
+
+        const session = await Auth.currentSession()
+        console.log("sessions is")
+        console.log(session)
+        this.props.addAuthUser(session.idToken.payload['cognito:username'])
     }
-
-    routes=()=>{
-
-    }
-
 
 
     render() {
         const {classes, theme} = this.props;
         console.log("~~~~~~~RENDERRRR~~~~~~`", this.props.activeMainCategory, this.props.activeSubCategory)
-        console.log("navbard data ^^^^^",this.props.navbarData)
+        console.log("navbard data ^^^^^", this.props.navbarData)
 
 
         const drawer = (
@@ -149,36 +161,110 @@ class NavDrawer extends React.Component {
                 <main className={classes.content}>
                     <div className={classes.toolbar}/>
 
-                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}`} component={ReadIt}/>
-                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('My Books\n(React)')}`} component={BooksApp}/>
+                    {
+                        (Object.keys(this.props.authUser).length === 0) ?(
+                                <div style={{height: '73vh'}}>
+                                    <div style={{'marginBottom': '10px'}}>
+                                        <Typography variant={'display3'}>
+                                            Lorem si sum
+                                        </Typography>
+                                </div>
+                                <div className={'backg'}>
+                                    <Route
 
-                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('AWS Metrics Dashboard\n(MEAN + Python)')}`} component={AwsMetrics}/>
-                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('Customer Onboarding Wizard\n(React)')}`} component={CustomerOnboarding}/>
+                                        exact
+                                        path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/`}
+                                        component={SignIn}/>
+                                    <Route
+                                        exact
+                                        path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/signin`}
+                                        component={SignIn}/>
+
+                                    <Route exact
+                                           path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/signup`}
+                                           component={SignUp}/>
+                                    <Route exact
+                                           path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/verification`}
+                                           component={Verification}/>
+                                </div>
+                            </div> ):
+                            <div>
+                                <div style={{height: '73vh'}}>
+                                    <div style={{'marginBottom': '10px'}}>
+                                        <Typography variant={'display3'}>
+                                            Lorem si sum
+                                        </Typography>
+                                    </div>
+                                    <Paper elevation={24}>
+                                        <Route
+                                            exact
+                                            path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/:categoryId?/:postId?`}
+                                            render={(props) =>
+
+                                                <div className={"app-containerr"}>
+                                                    <Category {...props}/>
+                                                    <Post {...props}/>
+                                                    <PostSummary1 {...props}/>
+                                                </div>
+                                            }/>
+                                    </Paper>
+                            </div>
+                            </div>
+
+
+
+
+                    }
+
+                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('My Books\n(React)')}`}
+                           component={BooksApp}/>
+
+                    <Route exact
+                           path={`/portfolio/${slug('Web Apps')}/${slug('AWS Metrics Dashboard\n(MEAN + Python)')}`}
+                           component={AwsMetrics}/>
+                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('Customer Onboarding Wizard\n(React)')}`}
+                           component={CustomerOnboarding}/>
 
                     <Route exact path={`/portfolio/${slug('Technical Skills')}`} component={TechnicalSkills}/>
 
 
-
-                    <Route exact path={`/portfolio/${slug('Professional Experience')}/${slug('Teradata')}`} component={Teradata}/>
-                    <Route exact path={`/portfolio/${slug('Professional Experience')}/${slug('Alliacense')}`} component={Alliacense}/>
-                    <Route exact path={`/portfolio/${slug('Professional Experience')}/${slug('Startups')}`} component={Startups}/>
-                    <Route exact path={`/portfolio/${slug('Professional Experience')}/${slug('UCLA SEAS')}`} component={UclaSeas}/>
+                    <Route exact path={`/portfolio/${slug('Professional Experience')}/${slug('Teradata')}`}
+                           component={Teradata}/>
+                    <Route exact path={`/portfolio/${slug('Professional Experience')}/${slug('Alliacense')}`}
+                           component={Alliacense}/>
+                    <Route exact path={`/portfolio/${slug('Professional Experience')}/${slug('Startups')}`}
+                           component={Startups}/>
+                    <Route exact path={`/portfolio/${slug('Professional Experience')}/${slug('UCLA SEAS')}`}
+                           component={UclaSeas}/>
 
 
                     <Route exact path={`/portfolio/${slug('Time Line')}/${slug('Work')}`} component={TimeLineWork}/>
-                    <Route exact path={`/portfolio/${slug('Time Line')}/${slug('Personal')}`} component={TimeLinePersonal}/>
+                    <Route exact path={`/portfolio/${slug('Time Line')}/${slug('Personal')}`}
+                           component={TimeLinePersonal}/>
 
-                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('1st Prize Teradata AI Hackathon')}`} component={AiHackathon}/>
-                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('2nd Prize Teradata Service Analytics Hackathon')}`} component={ServiceAnalyticsHackathon}/>
-                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('5th Position Teradata UI/UX Hackathon')}`} component={UiHackathon}/>
-                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('Patent Co-author (Invention Disclosure Report)')}`} component={Patent}/>
-                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('AWS Certified Solution Architect')}`} component={AwsCsa}/>
-                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('Certified Scrum Master')}`} component={Csa}/>
+                    <Route exact
+                           path={`/portfolio/${slug('Accomplishments')}/${slug('1st Prize Teradata AI Hackathon')}`}
+                           component={AiHackathon}/>
+                    <Route exact
+                           path={`/portfolio/${slug('Accomplishments')}/${slug('2nd Prize Teradata Service Analytics Hackathon')}`}
+                           component={ServiceAnalyticsHackathon}/>
+                    <Route exact
+                           path={`/portfolio/${slug('Accomplishments')}/${slug('5th Position Teradata UI/UX Hackathon')}`}
+                           component={UiHackathon}/>
+                    <Route exact
+                           path={`/portfolio/${slug('Accomplishments')}/${slug('Patent Co-author (Invention Disclosure Report)')}`}
+                           component={Patent}/>
+                    <Route exact
+                           path={`/portfolio/${slug('Accomplishments')}/${slug('AWS Certified Solution Architect')}`}
+                           component={AwsCsa}/>
+                    <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('Certified Scrum Master')}`}
+                           component={Csa}/>
 
 
-
-                    <Route exact path={`/portfolio/${slug('Machine Learning/Finance')}/${slug('1')}`} component={Jupyterr}/>
-                    <Route exact path={`/portfolio/${slug('Machine Learning/Finance')}/${slug('2')}`} component={Jupyterr}/>
+                    <Route exact path={`/portfolio/${slug('Machine Learning/Finance')}/${slug('1')}`}
+                           component={Jupyterr}/>
+                    <Route exact path={`/portfolio/${slug('Machine Learning/Finance')}/${slug('2')}`}
+                           component={Jupyterr}/>
 
 
                     <Route exact path={`/portfolio/${slug('Resume')}`} component={Resume}/>
@@ -208,14 +294,18 @@ const mapStateToProps = (state) => {
     return {
         activeMainCategory: state.activeMainCategory,
         activeSubCategory: state.activeSubCategory,
-        navbarData:state.navbarData
+        navbarData: state.navbarData,
+        authUser: state.authUser,
+        categories: state.categories,
 
     }
 }
 const mapDispatchToProps = (dispatch) => ({
 
     getNavbarData: () => dispatch(getNavbarData()),
-    changeActiveSubCategory: (subCategory)=> dispatch(changeActiveSubCategory(subCategory))
+    changeActiveSubCategory: (subCategory) => dispatch(changeActiveSubCategory(subCategory)),
+    addAuthUser: (authUser) => dispatch(addAuthUser(authUser)),
+
 
 })
 
