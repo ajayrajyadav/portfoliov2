@@ -162,13 +162,8 @@ class NavDrawer extends React.Component {
                     <div className={classes.toolbar}/>
 
                     {
-                        (Object.keys(this.props.authUser).length === 0) ?(
-                                <div style={{height: '73vh'}}>
-                                    <div style={{'marginBottom': '10px'}}>
-                                        <Typography variant={'display3'}>
-                                            Lorem si sum
-                                        </Typography>
-                                </div>
+                        (Object.keys(this.props.authUser).length === 0) ? (
+
                                 <div className={'backg'}>
                                     <Route
 
@@ -187,30 +182,27 @@ class NavDrawer extends React.Component {
                                            path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/verification`}
                                            component={Verification}/>
                                 </div>
-                            </div> ):
-                            <div>
-                                <div style={{height: '73vh'}}>
-                                    <div style={{'marginBottom': '10px'}}>
-                                        <Typography variant={'display3'}>
-                                            Lorem si sum
-                                        </Typography>
+                            ) :
+
+
+                            <Route
+                                exact
+                                path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/:categoryId?/:postId?`}
+                                render={(props) =>
+                                    <div>
+                                        <div style={{'marginBottom': '10px'}}>
+                                            <Typography variant={'display3'}>
+                                                Lorem si sum
+                                            </Typography>
+                                        </div>
+
+                                        <Paper className={"app-containerr"} style={{height: '73vh'}}>
+                                            <Category {...props}/>
+                                            <Post {...props}/>
+                                            <PostSummary1 {...props}/>
+                                        </Paper>
                                     </div>
-                                    <Paper elevation={24}>
-                                        <Route
-                                            exact
-                                            path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/:categoryId?/:postId?`}
-                                            render={(props) =>
-
-                                                <div className={"app-containerr"}>
-                                                    <Category {...props}/>
-                                                    <Post {...props}/>
-                                                    <PostSummary1 {...props}/>
-                                                </div>
-                                            }/>
-                                    </Paper>
-                            </div>
-                            </div>
-
+                                }/>
 
 
 
