@@ -16,29 +16,6 @@
 
 }
 
-.sectionOne {
-  grid-area: sectionOne;
-  overflow: scroll;
-  background-color: #f0f0f0;
-
-
-
-}
-
-.sectionTwo {
-  grid-area: sectionTwo;
-  height: 100vh;
-  overflow: scroll;
-  background-color: #f5f5f5;
-
-}
-.sectionThree {
-  grid-area: sectionThree;
-  height: 100vh;
-  overflow: scroll;
-  background-color: #f9f9f9;
-
-}
 .content {
   grid-area: content;
   height: 100vh;

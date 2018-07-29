@@ -2,69 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9c6c9966-db87-46f8-acac-fe8aee0ad00d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/assets/csa-badge.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/AiHackathon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/AwsCsa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Csa.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/CustomerOnboarding.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/MyReads/BooksAPI.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/MyReads/Bookshelves.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/MyReads/ListBooks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/MyReads/SearchBooks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/MyReads/icons/add.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/MyReads/icons/arrow-back.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/MyReads/icons/arrow-drop-down.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/Patent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/SkillsBars.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/TechnicalSkills.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/UiHackathon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Category/Category.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Category/Category.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Comments/AddComment.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Comments/AddComment1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Comments/CommentEdit.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Comments/Comments.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Comments/Comments.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Comments/Comments1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Login/Login.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Login/Login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummarFooter/PostSummaryFooter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummarFooter/PostSummaryFooter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/EditPost.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummarBar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummaryBar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/AddPost.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/PostBar/PostBar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/PostBar/PostBar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/PostList/SinglePost.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/PostList/SinglePost.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/PostSort/PostSort.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/PostSort/PostSort.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/auth/SignUp/SignUp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/auth/SignUp/SignUp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/auth/Verification/Verification.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/readItComponents/auth/Verification/Verification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/skills.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/book.pdf" afterPath="$PROJECT_DIR$/src/components/yo.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AboutMe.js" afterPath="$PROJECT_DIR$/src/components/AboutMe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Accomplishments.js" afterPath="$PROJECT_DIR$/src/components/Accomplishments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AiHackathon.js" afterPath="$PROJECT_DIR$/src/components/AiHackathon.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Alliacense.js" afterPath="$PROJECT_DIR$/src/components/Alliacense.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AwsCsa.js" afterPath="$PROJECT_DIR$/src/components/AwsCsa.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/AwsMetrics.js" afterPath="$PROJECT_DIR$/src/components/AwsMetrics.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/BooksRead.js" afterPath="$PROJECT_DIR$/src/components/BooksRead.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ContactMe.js" afterPath="$PROJECT_DIR$/src/components/ContactMe.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Csa.js" afterPath="$PROJECT_DIR$/src/components/Csa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/CustomerOnboarding.js" afterPath="$PROJECT_DIR$/src/components/CustomerOnboarding.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Education.js" afterPath="$PROJECT_DIR$/src/components/Education.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Header.js" afterPath="$PROJECT_DIR$/src/components/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Jupyterr.js" afterPath="$PROJECT_DIR$/src/components/Jupyterr.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MediaCard.js" afterPath="$PROJECT_DIR$/src/components/MediaCard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MyReads/Bookshelves.js" afterPath="$PROJECT_DIR$/src/components/MyReads/Bookshelves.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MyReads/ListBooks.js" afterPath="$PROJECT_DIR$/src/components/MyReads/ListBooks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/MyReads/SearchBooks.js" afterPath="$PROJECT_DIR$/src/components/MyReads/SearchBooks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Patent.js" afterPath="$PROJECT_DIR$/src/components/Patent.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ReadIt.js" afterPath="$PROJECT_DIR$/src/components/ReadIt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Resume.js" afterPath="$PROJECT_DIR$/src/components/Resume.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js" afterPath="$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/SkillsBars.js" afterPath="$PROJECT_DIR$/src/components/SkillsBars.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Startups.js" afterPath="$PROJECT_DIR$/src/components/Startups.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/TechnicalSkills.js" afterPath="$PROJECT_DIR$/src/components/TechnicalSkills.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Teradata.js" afterPath="$PROJECT_DIR$/src/components/Teradata.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/TimeLinePersonal.js" afterPath="$PROJECT_DIR$/src/components/TimeLinePersonal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/TimeLineWork.js" afterPath="$PROJECT_DIR$/src/components/TimeLineWork.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/UclaSeas.js" afterPath="$PROJECT_DIR$/src/components/UclaSeas.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/UiHackathon.js" afterPath="$PROJECT_DIR$/src/components/UiHackathon.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/financial.js" afterPath="$PROJECT_DIR$/src/components/financial.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/Category/Category.css" afterPath="$PROJECT_DIR$/src/components/readItComponents/Category/Category.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/Category/Category.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/Category/Category.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/Comments/AddComment.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/Comments/AddComment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/Comments/AddComment1.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/Comments/AddComment1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/Comments/CommentEdit.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/Comments/CommentEdit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/Comments/Comments.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/Comments/Comments.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/Comments/Comments1.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/Comments/Comments1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/EditPost.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/EditPost.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.css" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummarBar.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummarBar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummaryBar.css" afterPath="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummaryBar.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/AddPost.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/AddPost.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.css" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/Posts/PostSort/PostSort.css" afterPath="$PROJECT_DIR$/src/components/readItComponents/Posts/PostSort/PostSort.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/auth/SignUp/SignUp.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/auth/SignUp/SignUp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/readItComponents/auth/Verification/Verification.js" afterPath="$PROJECT_DIR$/src/components/readItComponents/auth/Verification/Verification.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/skills.css" afterPath="$PROJECT_DIR$/src/components/skills.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -77,432 +66,246 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5013165">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.36098132">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="SignIn.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="497">
-                      <caret line="131" column="9" lean-forward="true" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="9" />
-                      <folding>
-                        <marker date="1532573134000" expanded="true" signature="8994:9424" ph="..." />
-                        <marker date="1532573134000" expanded="true" signature="9052:9385" ph="..." />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="AddComment1.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Comments/AddComment1.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-669">
-                      <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="PostSummary.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="825">
-                      <caret line="83" column="50" lean-forward="false" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="50" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="PostSummar1.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="557">
-                      <caret line="138" column="110" lean-forward="false" selection-start-line="138" selection-start-column="106" selection-end-line="138" selection-end-column="110" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="EditPost.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/EditPost.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="612">
-                      <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="PostSummaryFooter.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummarFooter/PostSummaryFooter.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="459">
-                      <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Category.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Category/Category.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="465">
-                      <caret line="163" column="21" lean-forward="true" selection-start-line="163" selection-start-column="21" selection-end-line="163" selection-end-column="21" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Post.css" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="85">
-                      <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="PostSort.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/PostSort/PostSort.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="238">
-                      <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="BooksApp.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksApp.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="461">
-                      <caret line="100" column="33" lean-forward="true" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="NavDrawer.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="492">
-                      <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
-                      <folding>
-                        <element signature="e#0#26#0" expanded="true" />
-                        <element signature="e#2722#3697#0" expanded="false" />
-                        <marker date="1532573613000" expanded="true" signature="6785:8447" ph="..." />
-                        <marker date="1532573613000" expanded="true" signature="7039:8447" ph="..." />
-                        <marker date="1532573613000" expanded="true" signature="7304:8447" ph="..." />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SignIn.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="238">
-                      <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Category.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Category/Category.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="68">
-                      <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="PostSummaryBar.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummaryBar.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="340">
-                      <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="PostSummar1.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-54">
-                      <caret line="108" column="41" lean-forward="false" selection-start-line="108" selection-start-column="41" selection-end-line="108" selection-end-column="41" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="PostSummary.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="153">
-                      <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SignIn.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="508">
-                      <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-                      <folding>
-                        <marker date="1532573134000" expanded="true" signature="8994:9424" ph="..." />
-                        <marker date="1532573134000" expanded="true" signature="9052:9385" ph="..." />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SignUp.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/SignUp/SignUp.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="662">
-                      <caret line="72" column="61" lean-forward="false" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="61" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Category.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Category/Category.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1036">
-                      <caret line="166" column="46" lean-forward="false" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Post.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="286">
-                      <caret line="201" column="10" lean-forward="true" selection-start-line="201" selection-start-column="10" selection-end-line="201" selection-end-column="10" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="NavDrawer.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="520">
+                  <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#2527#3502#0" expanded="false" />
+                    <marker date="1532825281000" expanded="true" signature="5588:5972" ph="..." />
+                    <marker date="1532825281000" expanded="true" signature="6025:6208" ph="..." />
+                    <marker date="1532825281000" expanded="true" signature="6119:6182" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Teradata.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Teradata.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-15">
+                  <caret line="71" column="10" lean-forward="false" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+                  <folding>
+                    <marker date="1532825281000" expanded="true" signature="3983:4316" ph="..." />
+                    <marker date="1532825281000" expanded="false" signature="4013:4055" ph="..." />
+                    <marker date="1532825281000" expanded="true" signature="4055:4316" ph="..." />
+                    <marker date="1532825281000" expanded="true" signature="4121:4212" ph="..." />
+                    <marker date="1532825281000" expanded="true" signature="4278:4316" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/App.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="400">
+                  <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="yes.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/yes.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TimeLineWork.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/TimeLineWork.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="474">
+                  <caret line="192" column="85" lean-forward="false" selection-start-line="192" selection-start-column="85" selection-end-line="192" selection-end-column="85" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NavData.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/NavData.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="233">
+                  <caret line="280" column="0" lean-forward="false" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ReadIt.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/ReadIt.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SkillsBars.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/SkillsBars.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="476">
+                  <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TechnicalSkills.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/TechnicalSkills.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AboutMe.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/AboutMe.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-248">
+                  <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#685#5252#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-first>
       <split-second>
-        <splitter split-orientation="horizontal" split-proportion="0.41447">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="MyReads.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/MyReads/MyReads.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="807">
-                      <caret line="176" column="13" lean-forward="true" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="BooksRead.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/BooksRead.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="301">
-                      <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-                      <folding>
-                        <element signature="e#0#26#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/App.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="620">
-                      <caret line="41" column="120" lean-forward="false" selection-start-line="41" selection-start-column="120" selection-end-line="41" selection-end-column="140" />
-                      <folding>
-                        <element signature="e#0#39#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SearchBooks.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/MyReads/SearchBooks.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="323">
-                      <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="SkillsBars.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/SkillsBars.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="323">
-                      <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="AwsCsa.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/AwsCsa.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="323">
-                      <caret line="19" column="22" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="19" selection-end-column="22" />
-                      <folding>
-                        <element signature="e#0#26#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/App.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="751">
-                      <caret line="179" column="13" lean-forward="false" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="ListBooks.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/MyReads/ListBooks.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="1054">
-                      <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="BooksApp.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksApp.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="393">
-                      <caret line="97" column="26" lean-forward="true" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                        <marker date="1532561643000" expanded="true" signature="2706:2898" ph="..." />
-                        <marker date="1532561643000" expanded="true" signature="2706:3896" ph="..." />
-                        <marker date="1532561643000" expanded="true" signature="3475:3567" ph="..." />
-                        <marker date="1532561643000" expanded="true" signature="3627:3775" ph="..." />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Post.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="286">
-                      <caret line="201" column="10" lean-forward="true" selection-start-line="201" selection-start-column="10" selection-end-line="201" selection-end-column="10" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="MyReads.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/MyReads/MyReads.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="135">
-                      <caret line="110" column="20" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Bookshelves.js" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/components/MyReads/Bookshelves.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="224">
-                      <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="BooksRead.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/BooksRead.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="536">
-                      <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-                      <folding>
-                        <element signature="e#0#26#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="ReadIt.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/ReadIt.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="264">
-                      <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="23" selection-end-column="5" />
-                      <folding>
-                        <element signature="e#0#26#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Category.js" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Category/Category.js">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="643">
-                      <caret line="47" column="60" lean-forward="false" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="60" />
-                      <folding>
-                        <element signature="e#0#38#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
+        <leaf>
+          <file leaf-file-name="Teradata.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Teradata.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="323">
+                  <caret line="128" column="0" lean-forward="false" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TimeLineWork.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/TimeLineWork.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="564">
+                  <caret line="271" column="86" lean-forward="false" selection-start-line="271" selection-start-column="86" selection-end-line="271" selection-end-column="86" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UclaSeas.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/UclaSeas.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="9" column="69" lean-forward="false" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Patent.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Patent.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AiHackathon.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/AiHackathon.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="595">
+                  <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/App.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2318">
+                  <caret line="148" column="58" lean-forward="false" selection-start-line="148" selection-start-column="58" selection-end-line="148" selection-end-column="58" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AboutMe.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/AboutMe.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="153">
+                  <caret line="13" column="41" lean-forward="false" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+                  <folding>
+                    <element signature="e#685#5252#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ServiceAnalyticsHackathon.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="561">
+                  <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TechnicalSkills.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/TechnicalSkills.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="785">
+                  <caret line="50" column="63" lean-forward="false" selection-start-line="50" selection-start-column="63" selection-end-line="50" selection-end-column="63" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ContactMe.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/ContactMe.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
       </split-second>
     </splitter>
   </component>
@@ -516,17 +319,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>signon</find>
-      <find>/signup</find>
-      <find>hist</find>
-      <find>sign</find>
-      <find>history.push</find>
-      <find>add</find>
-      <find>props.hist</find>
-      <find>props.history.push</find>
-      <find>&lt;Link</find>
-      <find>Continue to</find>
-      <find>search</find>
       <find>back</find>
       <find>~~~~~~</find>
       <find>histo</find>
@@ -546,6 +338,17 @@
       <find>style=</find>
       <find>dele</find>
       <find>post-in</find>
+      <find>KAran</find>
+      <find>google</find>
+      <find>histor</find>
+      <find>headlin</find>
+      <find>content ma</find>
+      <find>work</find>
+      <find>'color': {background: 'rgb(41, 217, 194)', color: '#fff'}</find>
+      <find>'color': {background: 'rgb(255, 255, 61)', color: '#fff'}</find>
+      <find>whiteSp</find>
+      <find>whiteSpace:</find>
+      <find>core/es/</find>
     </findStrings>
     <replaceStrings>
       <replace>#275484</replace>
@@ -569,6 +372,9 @@
       <replace>===</replace>
       <replace>/r2</replace>
       <replace>margin</replace>
+      <replace>'color': {background: 'rgb(86, 80, 166)', color: '#fff'}</replace>
+      <replace>'color': {background: 'rgb(255, 74, 70)', color: '#fff'}</replace>
+      <replace>'color': {background: 'rgb(124,252,0)', color: '#fff'}</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -580,56 +386,56 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummarFooter/PostSummaryFooter.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/Modal.js" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/components/BooksRead.js" />
-        <option value="$PROJECT_DIR$/src/components/MyReads/Bookshelves.js" />
-        <option value="$PROJECT_DIR$/src/components/Header.js" />
-        <option value="$PROJECT_DIR$/src/components/AwsMetrics.js" />
-        <option value="$PROJECT_DIR$/src/components/CustomerOnboarding.js" />
-        <option value="$PROJECT_DIR$/src/components/Teradata.js" />
-        <option value="$PROJECT_DIR$/src/components/Alliacense.js" />
-        <option value="$PROJECT_DIR$/src/Startups.js" />
-        <option value="$PROJECT_DIR$/src/components/Startups.js" />
-        <option value="$PROJECT_DIR$/src/skills.scss" />
-        <option value="$PROJECT_DIR$/src/components/skills.scss" />
-        <option value="$PROJECT_DIR$/src/components/skills.css" />
-        <option value="$PROJECT_DIR$/src/components/SkillsBars.js" />
-        <option value="$PROJECT_DIR$/src/components/TechnicalSkills.js" />
-        <option value="$PROJECT_DIR$/src/actions/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/src/reducers/navbarData.js" />
-        <option value="$PROJECT_DIR$/src/components/AiHackathon.js" />
-        <option value="$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js" />
-        <option value="$PROJECT_DIR$/src/components/Patent.js" />
         <option value="$PROJECT_DIR$/src/components/UiHackathon.js" />
-        <option value="$PROJECT_DIR$/src/components/AboutMe.js" />
-        <option value="$PROJECT_DIR$/src/NavData.js" />
-        <option value="$PROJECT_DIR$/src/components/Csa.js" />
-        <option value="$PROJECT_DIR$/src/components/AwsCsa.js" />
-        <option value="$PROJECT_DIR$/src/components/Education.js" />
         <option value="$PROJECT_DIR$/src/components/MyReads/SearchBooks.js" />
-        <option value="$PROJECT_DIR$/src/components/MyReads/MyReads.css" />
-        <option value="$PROJECT_DIR$/src/components/MyReads/ListBooks.js" />
-        <option value="$PROJECT_DIR$/src/components/MyReads/BooksApp.js" />
-        <option value="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js" />
-        <option value="$PROJECT_DIR$/src/components/readItComponents/auth/Verification/Verification.js" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/auth/SignUp/SignUp.js" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/ReadIt.js" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummaryBar.css" />
-        <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js" />
-        <option value="$PROJECT_DIR$/src/components/readItComponents/Category/Category.js" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/Posts/PostSort/PostSort.css" />
-        <option value="$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.css" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.css" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.css" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/Category/Category.css" />
-        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/ReadIt.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/auth/Verification/Verification.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/Comments/CommentEdit.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/Category/Category.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummarFooter/PostSummaryFooter.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/EditPost.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummarBar.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.css" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js" />
+        <option value="$PROJECT_DIR$/src/components/BooksRead.js" />
+        <option value="$PROJECT_DIR$/src/components/MyReads/ListBooks.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/MyReads/MyReads.css" />
+        <option value="$PROJECT_DIR$/src/components/MyReads/BooksApp.js" />
+        <option value="$PROJECT_DIR$/src/components/TimeLinePersonal.js" />
+        <option value="$PROJECT_DIR$/src/components/Startups.js" />
+        <option value="$PROJECT_DIR$/src/components/Jupyterr.js" />
+        <option value="$PROJECT_DIR$/src/components/CustomerOnboarding.js" />
+        <option value="$PROJECT_DIR$/src/components/Csa.js" />
+        <option value="$PROJECT_DIR$/src/components/ContactMe.js" />
+        <option value="$PROJECT_DIR$/src/components/AwsMetrics.js" />
+        <option value="$PROJECT_DIR$/src/components/AwsCsa.js" />
+        <option value="$PROJECT_DIR$/src/components/Alliacense.js" />
+        <option value="$PROJECT_DIR$/src/components/Accomplishments.js" />
+        <option value="$PROJECT_DIR$/src/components/UclaSeas.js" />
+        <option value="$PROJECT_DIR$/src/components/Patent.js" />
+        <option value="$PROJECT_DIR$/src/components/AiHackathon.js" />
+        <option value="$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js" />
+        <option value="$PROJECT_DIR$/src/components/AboutMe.js" />
+        <option value="$PROJECT_DIR$/src/components/Education.js" />
+        <option value="$PROJECT_DIR$/src/components/Resume.js" />
+        <option value="$PROJECT_DIR$/src/components/TechnicalSkills.js" />
+        <option value="$PROJECT_DIR$/src/components/SkillsBars.js" />
+        <option value="$PROJECT_DIR$/src/NavData.js" />
+        <option value="$PROJECT_DIR$/src/components/TimeLineWork.js" />
+        <option value="$PROJECT_DIR$/src/components/Teradata.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/NavDrawer.js" />
       </list>
     </option>
@@ -646,7 +452,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1354" />
+    <option name="x" value="-1345" />
     <option name="y" value="-1080" />
     <option name="width" value="3840" />
     <option name="height" value="1080" />
@@ -691,98 +497,14 @@
               <item name="port2" type="b2602c69:ProjectViewProjectNode" />
               <item name="port2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="port2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="port2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="port2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="SignIn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="port2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="Category" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="port2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="PostDisplay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="port2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="PostDisplay" type="462c0819:PsiDirectoryNode" />
-              <item name="PostSummary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="port2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="PostDisplay" type="462c0819:PsiDirectoryNode" />
-              <item name="PostSummaryBar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="port2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="Posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="port2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="Posts" type="462c0819:PsiDirectoryNode" />
-              <item name="Post" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="port2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
-              <item name="Posts" type="462c0819:PsiDirectoryNode" />
-              <item name="PostSort" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -836,16 +558,16 @@
       <workItem from="1531789161152" duration="1595000" />
       <workItem from="1531848186740" duration="26984000" />
       <workItem from="1531932019866" duration="60803000" />
-      <workItem from="1532540247140" duration="25901000" />
+      <workItem from="1532540247140" duration="25939000" />
+      <workItem from="1532652256157" duration="30526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116580000" />
+    <option name="totallyTimeSpent" value="147144000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1354" y="-1080" width="3840" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1345" y="-1080" width="3840" height="1080" extended-state="0" />
     <layout>
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -854,10 +576,10 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10005266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25482234" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06345445" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -899,419 +621,43 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/AwsMetrics.js">
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/PostBar/PostBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="12" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-            <element signature="e#2314#2770#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CustomerOnboarding.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-            <element signature="e#2446#2902#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Alliacense.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Startups.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-            <element signature="e#527#983#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="78" lean-forward="false" selection-start-line="20" selection-start-column="78" selection-end-line="20" selection-end-column="78" />
+        <state relative-caret-position="-135">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/skills.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/activeMainCategory.js">
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/PostList/SinglePost.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/index.js">
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/PostSort/PostSort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/reducers/navbarData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TechnicalSkills.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="22" lean-forward="false" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Resume.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="71" column="40" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="28" lean-forward="true" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksAPI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AboutMe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AiHackathon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="67" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="23" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Csa.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/UiHackathon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="26" lean-forward="false" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Education.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="20" lean-forward="true" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NavData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="90" column="25" lean-forward="false" selection-start-line="90" selection-start-column="25" selection-end-line="90" selection-end-column="25" />
-          <folding>
-            <element signature="e#3040#3061#0" expanded="false" />
-            <element signature="e#3982#5259#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Patent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyReads/SearchBooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Teradata.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="127" column="26" lean-forward="false" selection-start-line="127" selection-start-column="26" selection-end-line="137" selection-end-column="34" />
-          <folding>
-            <element signature="e#4020#4596#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyReads/ListBooks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyReads/MyReads.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="807">
-          <caret line="176" column="13" lean-forward="true" selection-start-line="176" selection-start-column="13" selection-end-line="176" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="100" column="33" lean-forward="true" selection-start-line="100" selection-start-column="33" selection-end-line="100" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/Verification/Verification.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="88" column="87" lean-forward="false" selection-start-line="88" selection-start-column="83" selection-end-line="88" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Comments/AddComment1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-669">
+        <state relative-caret-position="-3">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="83" column="50" lean-forward="false" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/EditPost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummarFooter/PostSummaryFooter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ReadIt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="2" lean-forward="false" selection-start-line="18" selection-start-column="2" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="41" column="120" lean-forward="false" selection-start-line="41" selection-start-column="120" selection-end-line="41" selection-end-column="140" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/SignUp/SignUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="662">
-          <caret line="72" column="61" lean-forward="false" selection-start-line="72" selection-start-column="57" selection-end-line="72" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="201" column="10" lean-forward="true" selection-start-line="201" selection-start-column="10" selection-end-line="201" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummaryBar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="108" column="41" lean-forward="false" selection-start-line="108" selection-start-column="41" selection-end-line="108" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Category/Category.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1036">
-          <caret line="166" column="46" lean-forward="false" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/react.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="2023" column="8" lean-forward="false" selection-start-line="2023" selection-start-column="8" selection-end-line="2023" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/PostSort/PostSort.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/BooksRead.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MyReads/Bookshelves.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SkillsBars.js">
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummarBar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AwsCsa.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="19" selection-end-column="22" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1324,59 +670,429 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.css">
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="286">
+          <caret line="195" column="0" lean-forward="true" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Category/Category.css">
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Comments/AddComment1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Category/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="60" lean-forward="false" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Login/Login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/assets/react_serverless_full_stack_app/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="278" column="59" lean-forward="false" selection-start-line="278" selection-start-column="45" selection-end-line="278" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="613">
+          <caret line="143" column="37" lean-forward="true" selection-start-line="143" selection-start-column="37" selection-end-line="143" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="83" column="32" lean-forward="true" selection-start-line="83" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyReads/SearchBooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksAPI.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyReads/Bookshelves.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyReads/ListBooks.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyReads/MyReads.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Startups.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Jupyterr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/financial.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CustomerOnboarding.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Csa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="86" column="19" lean-forward="true" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/BooksRead.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+            <marker date="1532803146000" expanded="true" signature="984:986" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AwsMetrics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AwsCsa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Alliacense.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Accomplishments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TimeLinePersonal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Patent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ContactMe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/UclaSeas.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="69" lean-forward="false" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AiHackathon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Education.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="73" lean-forward="false" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Resume.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="30" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ReadIt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TechnicalSkills.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="30" lean-forward="false" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SkillsBars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AboutMe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#685#5252#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="227">
+            <caret line="932" column="78" lean-forward="false" selection-start-line="932" selection-start-column="78" selection-end-line="932" selection-end-column="78" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="751">
-          <caret line="179" column="13" lean-forward="false" selection-start-line="179" selection-start-column="13" selection-end-line="179" selection-end-column="13" />
+        <state relative-caret-position="2318">
+          <caret line="148" column="58" lean-forward="false" selection-start-line="148" selection-start-column="58" selection-end-line="148" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.js">
+    <entry file="file://$PROJECT_DIR$/src/components/TimeLineWork.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+        <state relative-caret-position="474">
+          <caret line="192" column="85" lean-forward="false" selection-start-line="192" selection-start-column="85" selection-end-line="192" selection-end-column="85" />
           <folding>
-            <marker date="1532573134000" expanded="true" signature="8994:9424" ph="..." />
-            <marker date="1532573134000" expanded="true" signature="9052:9385" ph="..." />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NavData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="280" column="0" lean-forward="false" selection-start-line="280" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/yes.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Teradata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="71" column="10" lean-forward="false" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
+          <folding>
+            <marker date="1532825281000" expanded="true" signature="3983:4316" ph="..." />
+            <marker date="1532825281000" expanded="false" signature="4013:4055" ph="..." />
+            <marker date="1532825281000" expanded="true" signature="4055:4316" ph="..." />
+            <marker date="1532825281000" expanded="true" signature="4121:4212" ph="..." />
+            <marker date="1532825281000" expanded="true" signature="4278:4316" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="205" column="0" lean-forward="true" selection-start-line="205" selection-start-column="0" selection-end-line="205" selection-end-column="0" />
+        <state relative-caret-position="520">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#2722#3697#0" expanded="false" />
-            <marker date="1532573613000" expanded="true" signature="6785:8447" ph="..." />
-            <marker date="1532573613000" expanded="true" signature="7039:8447" ph="..." />
-            <marker date="1532573613000" expanded="true" signature="7304:8447" ph="..." />
+            <element signature="e#2527#3502#0" expanded="false" />
+            <marker date="1532825281000" expanded="true" signature="5588:5972" ph="..." />
+            <marker date="1532825281000" expanded="true" signature="6025:6208" ph="..." />
+            <marker date="1532825281000" expanded="true" signature="6119:6182" ph="..." />
           </folding>
         </state>
       </provider>

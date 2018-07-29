@@ -12,16 +12,12 @@ import Divider from '@material-ui/core/Divider';
 import MenuIcon from '@material-ui/icons/Menu';
 import NavData from './NavData';
 import Teradata from "./components/Teradata";
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {Route} from 'react-router-dom'
 import {Auth} from "aws-amplify";
-
 import * as slug from "slug";
 import connect from "react-redux/es/connect/connect";
 import TimeLineWork from "./components/TimeLineWork";
-import TimeLinePersonal from "./components/TimeLinePersonal";
 import AboutMe from "./components/AboutMe";
-import ContactMe from "./components/ContactMe";
-import BooksRead from "./components/BooksRead";
 import Education from "./components/Education";
 import Resume from "./components/Resume";
 import Jupyterr from "./components/Jupyterr";
@@ -30,7 +26,6 @@ import UclaSeas from "./components/UclaSeas";
 import Startups from "./components/Startups";
 import Alliacense from "./components/Alliacense";
 import AwsMetrics from "./components/AwsMetrics";
-import ReadIt from "./components/ReadIt";
 import BooksApp from "./components/MyReads/BooksApp";
 import CustomerOnboarding from "./components/CustomerOnboarding";
 import TechnicalSkills from "./components/TechnicalSkills";
@@ -49,7 +44,8 @@ import './App.css'
 import SignIn from "./components/readItComponents/auth/SignIn/SignIn";
 import SignUp from "./components/readItComponents/auth/SignUp/SignUp";
 import {Verification} from "./components/readItComponents/auth/Verification/Verification";
-import Paper from "@material-ui/core/es/Paper/Paper";
+import Paper from "@material-ui/core/Paper";
+import BooksRead from "./components/BooksRead";
 
 
 const drawerWidth = 240;
@@ -107,7 +103,9 @@ class NavDrawer extends React.Component {
 
 
     async componentDidMount() {
+        this.props.history.push('/portfolio')
         this.props.getNavbarData()
+
 
         const session = await Auth.currentSession()
         console.log("sessions is")
@@ -143,7 +141,15 @@ class NavDrawer extends React.Component {
                                     className={classes.navIconHide}>
                             <MenuIcon/>
                         </IconButton>
-                        <Typography variant="title" color="inherit" noWrap>Google</Typography>
+                        <Typography style={{marginTop:'10px',marginBottom:'10px',fontSize:'25px'}} variant="title" color="inherit" noWrap>
+                            Karan Sagoo
+                            <span style={{marginLeft: '4px', marginTop:'2px',color:'white',fontStyle:'oblique',fontSize:'10px'}}>
+                                                                Full Stack Software Engineer
+, AWS CSA, Agile CSM
+
+                            </span>
+
+                        </Typography>
                     </Toolbar>
                 </AppBar>
                 <Hidden mdUp>
@@ -160,13 +166,10 @@ class NavDrawer extends React.Component {
                 </Hidden>
                 <main className={classes.content}>
                     <div className={classes.toolbar}/>
-
                     {
                         (Object.keys(this.props.authUser).length === 0) ? (
-
                                 <div className={'backg'}>
                                     <Route
-
                                         exact
                                         path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/`}
                                         component={SignIn}/>
@@ -183,8 +186,6 @@ class NavDrawer extends React.Component {
                                            component={Verification}/>
                                 </div>
                             ) :
-
-
                             <Route
                                 exact
                                 path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/:categoryId?/:postId?`}
@@ -192,24 +193,20 @@ class NavDrawer extends React.Component {
                                     <div>
                                         <div style={{'marginBottom': '10px'}}>
                                             <Typography variant={'display3'}>
-                                                Lorem si sum
+
                                             </Typography>
                                         </div>
-
-                                        <Paper className={"app-containerr"} style={{height: '73vh'}}>
+                                        <Paper className={"app-containerr"} style={{height: '73vh',marginTop:'60px'}}>
                                             <Category {...props}/>
                                             <Post {...props}/>
                                             <PostSummary1 {...props}/>
                                         </Paper>
                                     </div>
                                 }/>
-
-
-
                     }
 
                     <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('My Books\n(React)')}`}
-                           component={BooksApp}/>
+                           component={BooksRead}/>
 
                     <Route exact
                            path={`/portfolio/${slug('Web Apps')}/${slug('AWS Metrics Dashboard\n(MEAN + Python)')}`}
@@ -230,9 +227,8 @@ class NavDrawer extends React.Component {
                            component={UclaSeas}/>
 
 
-                    <Route exact path={`/portfolio/${slug('Time Line')}/${slug('Work')}`} component={TimeLineWork}/>
-                    <Route exact path={`/portfolio/${slug('Time Line')}/${slug('Personal')}`}
-                           component={TimeLinePersonal}/>
+                    <Route exact path={`/portfolio/${slug('Time Line')}`} component={TimeLineWork}/>
+
 
                     <Route exact
                            path={`/portfolio/${slug('Accomplishments')}/${slug('1st Prize Teradata AI Hackathon')}`}
@@ -269,7 +265,6 @@ class NavDrawer extends React.Component {
 
                     <Route exact path={`/portfolio/${slug('About Me')}`} component={AboutMe}/>
 
-                    <Route exact path={`/portfolio/${slug('Contact Me')}`} component={ContactMe}/>
 
 
                 </main>

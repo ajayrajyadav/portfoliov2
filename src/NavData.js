@@ -3,14 +3,14 @@
 import React from 'react';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
-import ExpansionPanel from "@material-ui/core/es/ExpansionPanel/ExpansionPanel";
-import ExpansionPanelSummary from "@material-ui/core/es/ExpansionPanelSummary/ExpansionPanelSummary";
-import ExpansionPanelDetails from "@material-ui/core/es/ExpansionPanelDetails/ExpansionPanelDetails";
+import ExpansionPanel from "@material-ui/core/ExpansionPanel";
+import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
+import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import Typography from "@material-ui/core/es/Typography/Typography";
-import Button from "@material-ui/core/es/Button/Button";
-import Divider from "@material-ui/core/es/Divider/Divider";
+import Button from "@material-ui/core/Button";
+import Divider from "@material-ui/core/Divider";
 import connect from "react-redux/es/connect/connect";
 import {changeActiveMainCategory, changeActiveSubCategory} from "./actions/index";
 import Link from "react-router-dom/es/Link";
@@ -79,10 +79,7 @@ const data = {
             },
         },
     },
-    'Time Line': {
-        'Work': '',
-        'Personal': ''
-    },
+    'Time Line': '',
 
     'Accomplishments': {
         '1st Prize Teradata AI Hackathon': '',
@@ -105,7 +102,7 @@ const misc = {
     'Education': '',
     'Books Read': '',
     'About Me': '',
-    'Contact Me': '',
+
 }
 // const startUps = {
 //     'Startups': {
@@ -251,7 +248,7 @@ class NavData extends React.Component {
                     Object.keys(data[d]).map(subItem => (
                         <ExpansionPanelDetails >
 
-                            <Button  component={Link} to={`/portfolio/${slug(d)}/${slug(subItem)}`} size="small" fullWidth={'true'} classes={{root: classes.mainep}} style={{whiteSpace:'pre'}} onClick={()=>this.props.changeActiveSubCategory(subItem)}>
+                            <Button  component={Link} to={`/portfolio/${slug(d)}/${slug(subItem)}`} size="small" fullWidth={'true'} classes={{root: classes.mainep}}  onClick={()=>this.props.changeActiveSubCategory(subItem)}>
 
                                     {subItem}
                             </Button>

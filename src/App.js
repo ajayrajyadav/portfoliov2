@@ -1,19 +1,13 @@
 import React, {Component} from 'react';
 import './App.css';
 import NavDrawer from "./NavDrawer";
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 import {Auth} from "aws-amplify";
-import SignIn from "./components/readItComponents/auth/SignIn/SignIn";
-import SignUp from "./components/readItComponents/auth/SignUp/SignUp";
-import {Verification} from "./components/readItComponents/auth/Verification/Verification";
-import Category from "./components/readItComponents/Category/Category";
-import Post from "./components/readItComponents/Posts/Post/Post";
-import PostSummary1 from "./components/readItComponents/PostDisplay/PostSummary/PostSummar1";
+
 import {addAuthUser} from "./actions/readitActions/authAction";
 import connect from "react-redux/es/connect/connect";
-import BooksApp from "./components/MyReads/BooksApp";
-import * as slug from "slug";
+
 
 
 class App extends Component {
@@ -31,8 +25,10 @@ class App extends Component {
         return (
             <Router>
                 {/*<NavDrawer/>*/}
-                <div>
-                    <Route path='/portfolio' component={NavDrawer}/>
+                <div >
+                    <Route path='/' component={NavDrawer}/>
+
+                    {/*<Route path='/portfolio' component={NavDrawer}/>*/}
 
 
                     {/*<Switch>*/}
