@@ -140,13 +140,13 @@
     grid-template-columns: 0.1fr 2fr 4fr;
     height: 78vh;
     overflow: scroll;
+    color: white;
     /*grid-template-columns: 1fr 1fr;*/
     /*grid-template-rows: auto;*/
     /*overflow: scroll;*/
 
 
     /*padding: 10px;*/
-    font-family: "Century Gothic", CenturyGothic, AppleGothic;
 }
 .backg{
     background: url(wb2.png) no-repeat center center fixed;

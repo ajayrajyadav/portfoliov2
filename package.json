@@ -28,7 +28,8 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "simple-react-pdf": "^1.0.9",
-    "slug": "^0.9.1"
+    "slug": "^0.9.1",
+    "typeface-roboto": "0.0.54"
   },
   "scripts": {
     "start": "react-scripts start",

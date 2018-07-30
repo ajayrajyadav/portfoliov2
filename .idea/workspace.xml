@@ -17,61 +17,117 @@
       <file leaf-file-name="NavDrawer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="414">
+              <caret line="170" column="33" lean-forward="false" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
                 <element signature="e#1342#1407#0" expanded="true" />
-                <element signature="e#2085#2148#0" expanded="true" />
-                <element signature="e#2410#2454#0" expanded="true" />
-                <element signature="e#2555#3530#0" expanded="false" />
-                <marker date="1532833917000" expanded="true" signature="5616:6000" ph="..." />
-                <marker date="1532833917000" expanded="true" signature="6053:6236" ph="..." />
-                <marker date="1532833917000" expanded="true" signature="6147:6210" ph="..." />
+                <element signature="e#2537#3512#0" expanded="false" />
+                <marker date="1532990513000" expanded="true" signature="5598:5982" ph="..." />
+                <marker date="1532990513000" expanded="true" signature="6035:6218" ph="..." />
+                <marker date="1532990513000" expanded="true" signature="6129:6192" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AiHackathon.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/AiHackathon.js">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <file leaf-file-name="App.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207111">
-              <caret line="12183" column="7" lean-forward="false" selection-start-line="12183" selection-start-column="7" selection-end-line="12183" selection-end-column="7" />
+            <state relative-caret-position="826">
+              <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BooksRead.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/BooksRead.js">
+      <file leaf-file-name="Comments1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Comments/Comments1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="303">
+              <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditPost.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/EditPost.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="27744">
-                <caret line="1632" column="58" lean-forward="false" selection-start-line="1632" selection-start-column="58" selection-end-line="1632" selection-end-column="58" />
-                <folding />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="PostSummar1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostSummarBar.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummarBar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Post.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="287" column="72" lean-forward="false" selection-start-line="287" selection-start-column="68" selection-end-line="287" selection-end-column="72" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddPost.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/Post/AddPost.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntroDialogue.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/readItComponents/IntroDialogue.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,11 +144,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>~~~~~~</find>
-      <find>histo</find>
-      <find>portfolior</find>
-      <find>this.state.allBooks</find>
-      <find>React Books App</find>
       <find>Karan</find>
       <find>Karan Sagoo</find>
       <find>/r1</find>
@@ -118,6 +169,11 @@
       <find>whiteSpace:</find>
       <find>core/es/</find>
       <find>/es/</find>
+      <find>Link</find>
+      <find>history</find>
+      <find>hist</find>
+      <find>link</find>
+      <find>histo</find>
     </findStrings>
     <replaceStrings>
       <replace>#275484</replace>
@@ -147,6 +203,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/src/components/readItComponents</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -155,11 +212,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/reducers/index.js" />
-        <option value="$PROJECT_DIR$/src/reducers/navbarData.js" />
-        <option value="$PROJECT_DIR$/src/components/UiHackathon.js" />
         <option value="$PROJECT_DIR$/src/components/MyReads/SearchBooks.js" />
-        <option value="$PROJECT_DIR$/src/components/readItComponents/auth/SignUp/SignUp.js" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.js" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummaryBar.css" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/Posts/PostSort/PostSort.css" />
@@ -167,19 +220,13 @@
         <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummary.css" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/Category/Category.css" />
         <option value="$PROJECT_DIR$/src/components/ReadIt.js" />
-        <option value="$PROJECT_DIR$/src/components/readItComponents/auth/Verification/Verification.js" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/Comments/CommentEdit.js" />
-        <option value="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js" />
-        <option value="$PROJECT_DIR$/src/components/readItComponents/Category/Category.js" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummarFooter/PostSummaryFooter.js" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/EditPost.js" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummarBar.js" />
         <option value="$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.css" />
-        <option value="$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.js" />
-        <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js" />
         <option value="$PROJECT_DIR$/src/components/BooksRead.js" />
         <option value="$PROJECT_DIR$/src/components/MyReads/ListBooks.js" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/MyReads/MyReads.css" />
         <option value="$PROJECT_DIR$/src/components/MyReads/BooksApp.js" />
         <option value="$PROJECT_DIR$/src/components/TimeLinePersonal.js" />
@@ -202,10 +249,20 @@
         <option value="$PROJECT_DIR$/src/components/TechnicalSkills.js" />
         <option value="$PROJECT_DIR$/src/components/SkillsBars.js" />
         <option value="$PROJECT_DIR$/src/NavData.js" />
-        <option value="$PROJECT_DIR$/src/components/TimeLineWork.js" />
         <option value="$PROJECT_DIR$/src/components/Teradata.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/TimeLineWork.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/NavDrawer.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/Comments/Comments1.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/Comments/AddComment1.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/auth/Verification/Verification.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/auth/SignUp/SignUp.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/Category/Category.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js" />
+        <option value="$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
       </list>
     </option>
   </component>
@@ -221,9 +278,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="1023" />
+    <option name="x" value="-1345" />
+    <option name="y" value="-1080" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -257,6 +315,119 @@
               <item name="port2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="SignIn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="SignUp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="Verification" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="Category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="Comments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="PostDisplay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="PostDisplay" type="462c0819:PsiDirectoryNode" />
+              <item name="PostSummary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="PostDisplay" type="462c0819:PsiDirectoryNode" />
+              <item name="PostSummaryBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="Posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="readItComponents" type="462c0819:PsiDirectoryNode" />
+              <item name="Posts" type="462c0819:PsiDirectoryNode" />
+              <item name="Post" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="port2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="port2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -273,18 +444,18 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/components/MyReads" />
-      <recent name="$PROJECT_DIR$/src/components/assets" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/node_modules/react-phone-number-input" />
-      <recent name="$PROJECT_DIR$/src/components/readItComponents" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/src/components/assets" />
       <recent name="$PROJECT_DIR$/src/assets" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/readItComponents" />
+      <recent name="$PROJECT_DIR$/src/components/MyReads" />
+      <recent name="$PROJECT_DIR$/src/components/assets" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/node_modules/react-phone-number-input" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -316,26 +487,28 @@
       <workItem from="1531932019866" duration="60803000" />
       <workItem from="1532540247140" duration="25939000" />
       <workItem from="1532652256157" duration="30526000" />
-      <workItem from="1532964523133" duration="1416000" />
+      <workItem from="1532964523133" duration="10344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150323000" />
+    <option name="totallyTimeSpent" value="159251000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1023" extended-state="6" />
+    <frame x="-1345" y="-1080" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Key Promoter X" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14774115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="ReactNative" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3297414" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2025862" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12886049" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24907847" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27047414" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -344,7 +517,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -388,22 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/MyReads/BooksApp.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/BooksRead.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/AwsMetrics.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/AwsCsa.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Alliacense.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Accomplishments.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/TimeLinePersonal.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Patent.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/ContactMe.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/UclaSeas.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/AiHackathon.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/ServiceAnalyticsHackathon.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Education.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Resume.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/ReadIt.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/TechnicalSkills.js" />
     <entry file="file://$PROJECT_DIR$/src/components/SkillsBars.js" />
     <entry file="file://$PROJECT_DIR$/src/components/AboutMe.js" />
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -417,24 +573,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="150" column="0" lean-forward="false" selection-start-line="150" selection-start-column="0" selection-end-line="150" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TimeLineWork.js" />
     <entry file="file://$PROJECT_DIR$/src/components/yes.json" />
     <entry file="file://$PROJECT_DIR$/src/components/Teradata.js" />
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -470,6 +611,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="34" column="33" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -572,14 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TimeLineWork.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Teradata.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -612,27 +746,200 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#1342#1407#0" expanded="true" />
-            <element signature="e#2085#2148#0" expanded="true" />
-            <element signature="e#2410#2454#0" expanded="true" />
-            <element signature="e#2555#3530#0" expanded="false" />
-            <marker date="1532833917000" expanded="true" signature="5616:6000" ph="..." />
-            <marker date="1532833917000" expanded="true" signature="6053:6236" ph="..." />
-            <marker date="1532833917000" expanded="true" signature="6147:6210" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AiHackathon.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TimeLineWork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-994">
+          <caret line="32" column="20" lean-forward="false" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/reducers/activeMainCategory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/SignIn/SignIn.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="63" column="24" lean-forward="false" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/SignUp/SignUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="71" column="26" lean-forward="false" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/auth/Verification/Verification.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="90" column="42" lean-forward="false" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Category/Category.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="181" column="46" lean-forward="false" selection-start-line="181" selection-start-column="42" selection-end-line="181" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Comments/AddComment1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="e#1#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Comments/CommentEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Comments/Comments.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Comments/Comments1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="35" column="10" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/EditPost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummaryBar/PostSummarBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/Post/AddPost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="72" column="32" lean-forward="true" selection-start-line="72" selection-start-column="32" selection-end-line="72" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/IntroDialogue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/Posts/Post/Post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="287" column="72" lean-forward="false" selection-start-line="287" selection-start-column="68" selection-end-line="287" selection-end-column="72" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/readItComponents/PostDisplay/PostSummary/PostSummar1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="82" column="35" lean-forward="true" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NavDrawer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="170" column="33" lean-forward="false" selection-start-line="170" selection-start-column="33" selection-end-line="170" selection-end-column="33" />
+          <folding>
+            <element signature="e#1342#1407#0" expanded="true" />
+            <element signature="e#2537#3512#0" expanded="false" />
+            <marker date="1532990513000" expanded="true" signature="5598:5982" ph="..." />
+            <marker date="1532990513000" expanded="true" signature="6035:6218" ph="..." />
+            <marker date="1532990513000" expanded="true" signature="6129:6192" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
           <folding />
         </state>
       </provider>

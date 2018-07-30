@@ -11,6 +11,7 @@ import reducer from "./reducers";
 import thunkMiddleware from 'redux-thunk'
 import Amplify from "aws-amplify";
 import config from "./config";
+import 'typeface-roboto'
 
 
 
