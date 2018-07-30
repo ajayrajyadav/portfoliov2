@@ -22,11 +22,11 @@ import Education from "./components/Education";
 import Resume from "./components/Resume";
 import Jupyterr from "./components/Jupyterr";
 import Accomplishments from "./components/Accomplishments";
-import UclaSeas from "./components/UclaSeas";
+import UclaSeas from "./components/Accomplishments";
 import Startups from "./components/Startups";
 import Alliacense from "./components/Alliacense";
 import AwsMetrics from "./components/AwsMetrics";
-import BooksApp from "./components/MyReads/BooksApp";
+// import BooksApp from "./components/MyReads/BooksApp";
 import CustomerOnboarding from "./components/CustomerOnboarding";
 import TechnicalSkills from "./components/TechnicalSkills";
 import {changeActiveSubCategory, getNavbarData} from "./actions/index";
@@ -36,14 +36,14 @@ import UiHackathon from "./components/UiHackathon";
 import Patent from "./components/Patent";
 import AwsCsa from "./components/AwsCsa";
 import Csa from "./components/Csa";
-import Category from "./components/readItComponents/Category/Category";
-import Post from "./components/readItComponents/Posts/Post/Post";
-import PostSummary1 from "./components/readItComponents/PostDisplay/PostSummary/PostSummar1";
+// import Category from "./components/readItComponents/Category/Category";
+// import Post from "./components/readItComponents/Posts/Post/Post";
+// import PostSummary1 from "./components/readItComponents/PostDisplay/PostSummary/PostSummar1";
 import {addAuthUser} from "./actions/readitActions/authAction";
 import './App.css'
-import SignIn from "./components/readItComponents/auth/SignIn/SignIn";
-import SignUp from "./components/readItComponents/auth/SignUp/SignUp";
-import {Verification} from "./components/readItComponents/auth/Verification/Verification";
+// import SignIn from "./components/readItComponents/auth/SignIn/SignIn";
+// import SignUp from "./components/readItComponents/auth/SignUp/SignUp";
+// import {Verification} from "./components/readItComponents/auth/Verification/Verification";
 import Paper from "@material-ui/core/Paper";
 import BooksRead from "./components/BooksRead";
 
@@ -166,47 +166,47 @@ class NavDrawer extends React.Component {
                 </Hidden>
                 <main className={classes.content}>
                     <div className={classes.toolbar}/>
-                    {
-                        (Object.keys(this.props.authUser).length === 0) ? (
-                                <div className={'backg'}>
-                                    <Route
-                                        exact
-                                        path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/`}
-                                        component={SignIn}/>
-                                    <Route
-                                        exact
-                                        path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/signin`}
-                                        component={SignIn}/>
+                    {/*{*/}
+                        {/*(Object.keys(this.props.authUser).length === 0) ? (*/}
+                                {/*<div className={'backg'}>*/}
+                                    {/*<Route*/}
+                                        {/*exact*/}
+                                        {/*path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/`}*/}
+                                        {/*component={SignIn}/>*/}
+                                    {/*<Route*/}
+                                        {/*exact*/}
+                                        {/*path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/signin`}*/}
+                                        {/*component={SignIn}/>*/}
 
-                                    <Route exact
-                                           path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/signup`}
-                                           component={SignUp}/>
-                                    <Route exact
-                                           path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/verification`}
-                                           component={Verification}/>
-                                </div>
-                            ) :
-                            <Route
-                                exact
-                                path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/:categoryId?/:postId?`}
-                                render={(props) =>
-                                    <div>
-                                        <div style={{'marginBottom': '10px'}}>
-                                            <Typography variant={'display3'}>
+                                    {/*<Route exact*/}
+                                           {/*path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/signup`}*/}
+                                           {/*component={SignUp}/>*/}
+                                    {/*<Route exact*/}
+                                           {/*path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/verification`}*/}
+                                           {/*component={Verification}/>*/}
+                                {/*</div>*/}
+                            {/*) :*/}
+                            {/*<Route*/}
+                                {/*exact*/}
+                                {/*path={`/portfolio/${slug('Web Apps')}/${slug('ReadIt! (AWS Serverless, React, Redux)')}/:categoryId?/:postId?`}*/}
+                                {/*render={(props) =>*/}
+                                    {/*<div>*/}
+                                        {/*<div style={{'marginBottom': '10px'}}>*/}
+                                            {/*<Typography variant={'display3'}>*/}
 
-                                            </Typography>
-                                        </div>
-                                        <Paper className={"app-containerr"} style={{height: '73vh',marginTop:'60px'}}>
-                                            <Category {...props}/>
-                                            <Post {...props}/>
-                                            <PostSummary1 {...props}/>
-                                        </Paper>
-                                    </div>
-                                }/>
-                    }
+                                            {/*</Typography>*/}
+                                        {/*</div>*/}
+                                        {/*<Paper className={"app-containerr"} style={{height: '73vh',marginTop:'60px'}}>*/}
+                                            {/*<Category {...props}/>*/}
+                                            {/*<Post {...props}/>*/}
+                                            {/*<PostSummary1 {...props}/>*/}
+                                        {/*</Paper>*/}
+                                    {/*</div>*/}
+                                {/*}/>*/}
+                    {/*}*/}
 
-                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('My Books\n(React)')}`}
-                           component={BooksRead}/>
+                    {/*<Route exact path={`/portfolio/${slug('Web Apps')}/${slug('My Books\n(React)')}`}*/}
+                           {/*component={BooksRead}/>*/}
 
                     <Route exact
                            path={`/portfolio/${slug('Web Apps')}/${slug('AWS Metrics Dashboard\n(MEAN + Python)')}`}
@@ -259,8 +259,8 @@ class NavDrawer extends React.Component {
 
                     <Route exact path={`/portfolio/${slug('Education')}`} component={Education}/>
 
-                    <Route exact path={`/portfolio/${slug('Books Read')}`} component={BooksApp}/>
-                    <Route exact path={`/portfolio/${slug('Books Read')}/search`} component={BooksApp}/>
+                    {/*<Route exact path={`/portfolio/${slug('Books Read')}`} component={BooksApp}/>*/}
+                    {/*<Route exact path={`/portfolio/${slug('Books Read')}/search`} component={BooksApp}/>*/}
 
 
                     <Route exact path={`/portfolio/${slug('About Me')}`} component={AboutMe}/>
