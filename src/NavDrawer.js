@@ -46,6 +46,7 @@ import SignUp from "./components/readItComponents/auth/SignUp/SignUp";
 import {Verification} from "./components/readItComponents/auth/Verification/Verification";
 import Paper from "@material-ui/core/Paper";
 import BooksRead from "./components/BooksRead";
+import BooksApp from "./components/MyReads/BooksApp";
 
 
 const drawerWidth = 240;
@@ -142,11 +143,9 @@ class NavDrawer extends React.Component {
                             <MenuIcon/>
                         </IconButton>
                         <Typography style={{marginTop:'10px',marginBottom:'10px',fontSize:'25px'}} variant="title" color="inherit" noWrap>
-                            Karan Sagoo
+                            {/*Karan Sagoo*/}
                             <span style={{marginLeft: '4px', marginTop:'2px',color:'white',fontStyle:'oblique',fontSize:'10px'}}>
-                                                                Full Stack Software Engineer
-, AWS CSA, Agile CSM
-
+                                {/*Full Stack Software Engineer, AWS CSA, Agile CSM*/}
                             </span>
 
                         </Typography>
@@ -259,8 +258,8 @@ class NavDrawer extends React.Component {
 
                     <Route exact path={`/portfolio/${slug('Education')}`} component={Education}/>
 
-                    {/*<Route exact path={`/portfolio/${slug('Books Read')}`} component={BooksApp}/>*/}
-                    {/*<Route exact path={`/portfolio/${slug('Books Read')}/search`} component={BooksApp}/>*/}
+                    <Route exact path={`/portfolio/${slug('Books Read')}`} component={BooksApp}/>
+                    <Route exact path={`/portfolio/${slug('Books Read')}/search`} component={BooksApp}/>
 
 
                     <Route exact path={`/portfolio/${slug('About Me')}`} component={AboutMe}/>
