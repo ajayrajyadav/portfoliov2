@@ -22,7 +22,6 @@ import Education from "./components/Education";
 import Resume from "./components/Resume";
 import Jupyterr from "./components/Jupyterr";
 import Accomplishments from "./components/Accomplishments";
-import UclaSeas from "./components/Accomplishments";
 import Startups from "./components/Startups";
 import Alliacense from "./components/Alliacense";
 import AwsMetrics from "./components/AwsMetrics";
@@ -35,7 +34,7 @@ import ServiceAnalyticsHackathon from "./components/ServiceAnalyticsHackathon";
 import UiHackathon from "./components/UiHackathon";
 import Patent from "./components/Patent";
 import AwsCsa from "./components/AwsCsa";
-import Csa from "./components/Csa";
+import Csm from "./components/Csm";
 import Category from "./components/readItComponents/Category/Category";
 import Post from "./components/readItComponents/Posts/Post/Post";
 import PostSummary1 from "./components/readItComponents/PostDisplay/PostSummary/PostSummar1";
@@ -47,6 +46,8 @@ import {Verification} from "./components/readItComponents/auth/Verification/Veri
 import Paper from "@material-ui/core/Paper";
 import BooksRead from "./components/BooksRead";
 import BooksApp from "./components/MyReads/BooksApp";
+import Seas from "./components/Seas";
+import ContactInfo from "./components/ContactInfo";
 
 
 const drawerWidth = 240;
@@ -80,13 +81,29 @@ const styles = theme => ({
         },
     },
     content: {
-        flexGrow: 1,
-        backgroundColor: theme.palette.background.default,
-        paddingTop: theme.spacing.unit * 5,
-        paddingRight: theme.spacing.unit * 20,
-        paddingBottom: theme.spacing.unit * 20,
-        paddingLeft: theme.spacing.unit * 20,
-        overflow: 'scroll'
+        [theme.breakpoints.up('sm')]: {
+            flexGrow: 1,
+            backgroundColor: theme.palette.background.default,
+            paddingTop: theme.spacing.unit * 1,
+            paddingRight: theme.spacing.unit * 2,
+            paddingBottom: theme.spacing.unit * 2,
+            paddingLeft: theme.spacing.unit * 2,
+            overflow: 'scroll'        },
+        [theme.breakpoints.up('xs')]: {
+            flexGrow: 1,
+            backgroundColor: theme.palette.background.default,
+            padding:theme.spacing.unit,
+            overflow: 'scroll'        },
+        [theme.breakpoints.up('md')]: {
+            flexGrow: 1,
+            backgroundColor: theme.palette.background.default,
+            paddingTop: theme.spacing.unit * 1,
+            paddingRight: theme.spacing.unit * 15,
+            paddingBottom: theme.spacing.unit * 15,
+            paddingLeft: theme.spacing.unit * 15,
+            overflow: 'scroll'        },
+
+
     },
 
 });
@@ -104,7 +121,7 @@ class NavDrawer extends React.Component {
 
 
     async componentDidMount() {
-        this.props.history.push('/portfolio')
+        // this.props.history.push('/portfolio/Professional-Experience/Teradata')
         this.props.getNavbarData()
 
 
@@ -142,10 +159,17 @@ class NavDrawer extends React.Component {
                                     className={classes.navIconHide}>
                             <MenuIcon/>
                         </IconButton>
-                        <Typography style={{marginTop:'10px',marginBottom:'10px',fontSize:'25px'}} variant="title" color="inherit" noWrap>
-                            {/*Karan Sagoo*/}
-                            <span style={{marginLeft: '4px', marginTop:'2px',color:'white',fontStyle:'oblique',fontSize:'10px'}}>
-                                {/*Full Stack Software Engineer, AWS CSA, Agile CSM*/}
+                        <Typography style={{marginTop: '10px', marginBottom: '10px', fontSize: '25px'}} variant="title"
+                                    color="inherit" noWrap>
+                            Karan Sagoo
+                            <span style={{
+                                marginLeft: '4px',
+                                marginTop: '2px',
+                                color: 'white',
+                                fontStyle: 'oblique',
+                                fontSize: '10px'
+                            }}>
+                                {`Full Stack Software Engineer, AWS CSA, Agile CSM`} {}
                             </span>
 
                         </Typography>
@@ -195,7 +219,7 @@ class NavDrawer extends React.Component {
 
                                             </Typography>
                                         </div>
-                                        <Paper className={"app-containerr"} style={{height: '73vh',marginTop:'60px'}}>
+                                        <Paper className={"app-containerr"} style={{height: '73vh', marginTop: '60px'}}>
                                             <Category {...props}/>
                                             <Post {...props}/>
                                             <PostSummary1 {...props}/>
@@ -223,7 +247,7 @@ class NavDrawer extends React.Component {
                     <Route exact path={`/portfolio/${slug('Professional Experience')}/${slug('Startups')}`}
                            component={Startups}/>
                     <Route exact path={`/portfolio/${slug('Professional Experience')}/${slug('UCLA SEAS')}`}
-                           component={UclaSeas}/>
+                           component={Seas}/>
 
 
                     <Route exact path={`/portfolio/${slug('Time Line')}`} component={TimeLineWork}/>
@@ -245,13 +269,13 @@ class NavDrawer extends React.Component {
                            path={`/portfolio/${slug('Accomplishments')}/${slug('AWS Certified Solution Architect')}`}
                            component={AwsCsa}/>
                     <Route exact path={`/portfolio/${slug('Accomplishments')}/${slug('Certified Scrum Master')}`}
-                           component={Csa}/>
+                           component={Csm}/>
 
 
-                    <Route exact path={`/portfolio/${slug('Machine Learning/Finance')}/${slug('1')}`}
-                           component={Jupyterr}/>
-                    <Route exact path={`/portfolio/${slug('Machine Learning/Finance')}/${slug('2')}`}
-                           component={Jupyterr}/>
+                    {/*<Route exact path={`/portfolio/${slug('Machine Learning/Finance')}/${slug('1')}`}*/}
+                           {/*component={Jupyterr}/>*/}
+                    {/*<Route exact path={`/portfolio/${slug('Machine Learning/Finance')}/${slug('2')}`}*/}
+                           {/*component={Jupyterr}/>*/}
 
 
                     <Route exact path={`/portfolio/${slug('Resume')}`} component={Resume}/>
@@ -263,7 +287,7 @@ class NavDrawer extends React.Component {
 
 
                     <Route exact path={`/portfolio/${slug('About Me')}`} component={AboutMe}/>
-
+                    <Route exact path={`/portfolio/${slug('Contact Info')}`} component={ContactInfo}/>
 
 
                 </main>

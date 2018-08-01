@@ -19,16 +19,16 @@ import slug from 'slug'
 const data = {
     'Web Apps': {
         'ReadIt!\n(AWS Serverless, React, Redux)': '',
-        'My Books\n(React)':'',
+        'My Books\n(React)': '',
         'AWS Metrics Dashboard\n(MEAN + Python)': '',
-        'Customer Onboarding Wizard\n(React)':'',
-        'This App  ❤️\n(React/Redux)':''
+        'Customer Onboarding Wizard\n(React)': '',
+        'This App  ❤️\n(React/Redux)': ''
     },
     'Technical Skills': '',
     'Professional Experience': {
         'Teradata': {
             '1': {
-                'Title':'',
+                'Title': '',
                 'Summary': '',
                 'Date': '',
                 'S': '',
@@ -40,7 +40,7 @@ const data = {
         },
         'Alliacense': {
             '1': {
-                'Title':'',
+                'Title': '',
                 'Summary': '',
                 'Date': '',
 
@@ -55,7 +55,7 @@ const data = {
 
         'Startups': {
             '1': {
-                'Title':'',
+                'Title': '',
                 'Summary': '',
                 'Date': '',
                 'S': '',
@@ -67,7 +67,7 @@ const data = {
         },
         'UCLA SEAS': {
             '1': {
-                'Title':'',
+                'Title': '',
                 'Summary': '',
                 'Date': '',
 
@@ -82,26 +82,27 @@ const data = {
     'Time Line': '',
 
     'Accomplishments': {
-        '1st Prize Teradata AI Hackathon': '',
+        '1st Prize Teradata\nAI Hackathon': '',
         '2nd Prize Teradata\nService Analytics Hackathon': '',
         '5th Position Teradata\nUI/UX Hackathon': '',
-        'Patent Co-author\n(Invention Disclosure Report)':'',
+        'Patent Co-author\n(Invention Disclosure Report)': '',
         'AWS Certified Solution Architect': '',
-        'Certified Scrum Master':''
+        'Certified Scrum Master': ''
     },
-    'Machine Learning/Finance': {
-        '1': '',
-        '2': '',
-        '3': ''
-    },
+    // 'Machine Learning/Finance': {
+    //     '1': '',
+    //     '2': '',
+    //     '3': ''
+    // },
     'Resume': '',
 
 
 }
 const misc = {
     'Education': '',
-    'Books Read': '',
+    // 'Books Read': '',
     'About Me': '',
+    'Contact Info': ''
 
 }
 // const startUps = {
@@ -198,33 +199,29 @@ const styles = theme => ({
         marginBottom: '-15px',
         marginRight: '-15px',
         justifyContent: 'start',
-        justifyItems:'start',
-        alignContent:'start',
-        alignItems:'start',
+        justifyItems: 'start',
+        alignContent: 'start',
+        alignItems: 'start',
         textTransform: 'none',
-        display:'grid',
-        gridTemplateRows:'auto',
-        gridTemplateColumns:'auto',
+        display: 'grid',
+        gridTemplateRows: 'auto',
+        gridTemplateColumns: 'auto',
 
     }
 
 })
 
 
-
-
-export const otherMailFolderListItems = Object.keys(misc).map(m => (
-    <div>
-        <ListItem button>
-
-            <ListItemText primary={m}/>
-        </ListItem>
-
-    </div>
-))
-
 class NavData extends React.Component {
+    state = {
+        mainCategory: ''
+    }
+    onClickCategory = (item) => {
+        this.setState({mainCategory: item})
+    }
+
     render() {
+        console.log("Active", this.state)
         const {classes} = this.props;
 
         const mailFolderListItems = Object.keys(data).map(d => (
@@ -233,24 +230,47 @@ class NavData extends React.Component {
                 <ExpansionPanelSummary elevation={'0'}>
 
 
+                    <Button fullWidth={'true'} component={Link} to={`/portfolio/${slug(d)}`}
+                            onClick={() => this.onClickCategory(d)}
+                            classes={{root: classes.label}}>
+                        {
+                            ((Object.keys(data[d]).length === 0) && (d === this.state.mainCategory))?
+                                <Typography
+                                    style={{'fontWeight': 'bold',color:'#4052AF'}}>
+                                    {d}
+                                </Typography>:
+                                <Typography
+                                    style={{'fontWeight': 'bold'}}>
+                                    {d}
+                                </Typography>
 
-                            <Button fullWidth={'true'} component={Link} to={`/portfolio/${slug(d)}`} classes={{root: classes.label}} onClick={()=>this.props.changeActiveMainCategory(d)} >
+                        }
 
-                            <Typography style={{'fontWeight': 'bold'}}>
-                                {d}
-                            </Typography>
-                            </Button>
 
+
+                    </Button>
 
 
                 </ExpansionPanelSummary>
                 {
                     Object.keys(data[d]).map(subItem => (
-                        <ExpansionPanelDetails >
+                        <ExpansionPanelDetails>
 
-                            <Button  component={Link} to={`/portfolio/${slug(d)}/${slug(subItem)}`} size="small" fullWidth={'true'} classes={{root: classes.mainep}}  onClick={()=>this.props.changeActiveSubCategory(subItem)}>
+                            <Button
+                                component={Link} selected={true} to={`/portfolio/${slug(d)}/${slug(subItem)}`}
+                                size="small" fullWidth={'true'} classes={{root: classes.mainep}}
+                                onClick={() => this.onClickCategory(subItem)}>
+                                {
+                                    (subItem === this.state.mainCategory) ?
+                                        <div style={{color:'#4052AF'}}>
+                                            {subItem}
+                                        </div>
+                                        :
+                                        <div>
+                                            {subItem}
+                                        </div>
+                                }
 
-                                    {subItem}
                             </Button>
 
                         </ExpansionPanelDetails>
@@ -261,17 +281,28 @@ class NavData extends React.Component {
         const miscItems = Object.keys(misc).map(d => (
             <ExpansionPanel elevation={'0'} classes={{root: classes.ep}}>
                 <ExpansionPanelSummary elevation={'0'}>
-                    <Button component={Link} to={`/portfolio/${slug(d)}`} fullWidth={'true'} classes={{root: classes.label}}>
-                        <Typography style={{'fontWeight': 'bold'}}>
-                            {d}
-                        </Typography>
+                    <Button component={Link} to={`/portfolio/${slug(d)}`} fullWidth={'true'}
+                            onClick={() => this.onClickCategory(d)}
+                            classes={{root: classes.label}}>
+                        {
+                            (d === this.state.mainCategory)?
+                                <Typography
+                                    style={{'fontWeight': 'bold',color:'#4052AF'}}>
+                                    {d}
+                                </Typography>:
+                                <Typography
+                                    style={{'fontWeight': 'bold'}}>
+                                    {d}
+                                </Typography>
+
+                        }
                     </Button>
                 </ExpansionPanelSummary>
             </ExpansionPanel>
         ))
         return (
             <div>
-                <div style={{marginBottom: '5px'}}>
+                <div style={{marginBottom: '5px',whiteSpace:'pre'}}>
                     {mailFolderListItems}
                 </div>
                 <Divider/>
@@ -300,7 +331,7 @@ const mapStateToProps = (state) => {
 const mapDispatchToProps = (dispatch) => ({
 
     changeActiveMainCategory: (mainCategory) => dispatch(changeActiveMainCategory(mainCategory)),
-    changeActiveSubCategory: (subCategory)=> dispatch(changeActiveSubCategory(subCategory))
+    changeActiveSubCategory: (subCategory) => dispatch(changeActiveSubCategory(subCategory))
 
 })
-export default connect(mapStateToProps,mapDispatchToProps)(withStyles(styles)(NavData));
+export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(NavData));
