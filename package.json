@@ -32,7 +32,10 @@
     "simple-react-pdf": "^1.0.9",
     "slug": "^0.9.1",
     "source-map-explorer": "^1.5.0",
-    "typeface-roboto": "0.0.54"
+    "typeface-hanalei-fill": "0.0.54",
+    "typeface-open-sans": "0.0.54",
+    "typeface-roboto": "0.0.54",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",

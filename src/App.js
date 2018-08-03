@@ -7,7 +7,7 @@ import {Auth} from "aws-amplify";
 
 import {addAuthUser} from "./actions/readitActions/authAction";
 import connect from "react-redux/es/connect/connect";
-
+import 'typeface-roboto'
 
 
 class App extends Component {
