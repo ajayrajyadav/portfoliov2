@@ -14,6 +14,7 @@ import connect from "react-redux/es/connect/connect";
 import IntroDialogue from "../../IntroDialogue";
 import {addAuthUser} from "../../../../actions/readitActions/authAction";
 import * as slug from "slug";
+import Title from "../../../Title";
 
 class SignIn extends Component {
     state = {
@@ -93,7 +94,12 @@ class SignIn extends Component {
         console.log("Title Render  props: ", this.state.email)
 
         return (
-            <div className={'card-container'}>
+            <div>
+                    <Title   title={'Link to Github'}>
+                    </Title>
+                <a href={'https://github.com/uberman4740/portfoliov2'}><img height='50px' width = '50px' src={'http://csis.pace.edu/~scharff/pacemobilelab/images/github.jpg'}/></a>
+
+                <div className={'card-container'}>
                 <IntroDialogue title={'Welcome to ReadIt!'}
                        content={'ReadIt! is a serverless Redux App with user authentication.\nLogin with default login credentials provided or make a new\naccount.'}
                        image={'https://s3.amazonaws.com/portfolio-assets-4740/assets/react_serverless_full_stack_app/1.png'}
@@ -179,6 +185,7 @@ class SignIn extends Component {
                 </Card>
 
 
+            </div>
             </div>
         )
     }

@@ -49,17 +49,22 @@ class IntroDialogue extends React.Component {
                             aria-describedby="alert-dialog-description"
                         >
                             <Card className={classes.card}>
-                                <a href={this.props.image}>
+
+
+                                    {
+                                        this.props.image ?  <a href={this.props.image}>
+                                            <CardMedia
+                                                className={classes.media}
+                                                image={this.props.image}
+                                                title="ReadIt Architecture"
+                                            >
+                                            </CardMedia>
+                                        </a>:
+                                            null
+                                    }
 
 
 
-                                <CardMedia
-                                    className={classes.media}
-                                    image={this.props.image}
-                                    title="ReadIt Architecture"
-                                >
-                                </CardMedia>
-                                </a>
                                 <Divider/>
                                 <CardContent>
 

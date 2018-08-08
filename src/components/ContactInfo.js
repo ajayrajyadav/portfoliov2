@@ -20,7 +20,7 @@ const aboutMeData = {
     },
     'LinkedIn': {
         'title': 'LinkedIn',
-        'link': <a href={`https://linkedin.com/in/ksagoo`}><img height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/linkedin.svg" /></a>
+        'link': <a href={`https://linkedin.com/in/ksagoo`}><img src="https://png.icons8.com/color/40/000000/linkedin.png"/></a>
     },
 
 

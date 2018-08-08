@@ -299,8 +299,19 @@ const data = [
 ]
 
 class Teradata extends Component {
+    state = {
+        expanded: null,
+    };
+
+    handleChange = panel => (event, expanded) => {
+        this.setState({
+            expanded: expanded ? panel : false,
+        });
+    };
     render() {
         const {classes} = this.props;
+        const { expanded } = this.state;
+
 
         return (
             <div style={{whiteSpace: 'pre-line'}}>
@@ -315,7 +326,7 @@ class Teradata extends Component {
                 <div className={classes.root}>
                     {
                         data.map(d => (
-                            <ExpansionPanel>
+                            <ExpansionPanel >
                                 <ExpansionPanelSummary expandIcon={<ExpandMoreIcon/>}>
                                     <Typography className={classes.heading}>
                                         <span style={{fontWeight: 'bold'}}>{d.title}</span>

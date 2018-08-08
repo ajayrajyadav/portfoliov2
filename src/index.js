@@ -11,9 +11,19 @@ import reducer from "./reducers";
 import thunkMiddleware from 'redux-thunk'
 import Amplify from "aws-amplify";
 import config from "./config";
-import 'typeface-open-sans'
+import 'typeface-roboto'
 
-
+// import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+//
+// const theme = createMuiTheme({
+//     palette: {
+//         type: 'light',
+//     },
+//     typography: {
+//         // Use the system font instead of the default Roboto font.
+//         fontFamily: ['Roboto'],
+//     }
+// });
 
 const middlewares = [thunkMiddleware,logger]
 
@@ -51,6 +61,7 @@ Amplify.configure({
 
 
 ReactDOM.render( <Provider store={store}>
-    <App/>
+        <App />
+
 </Provider>, document.getElementById('root'));
 registerServiceWorker();

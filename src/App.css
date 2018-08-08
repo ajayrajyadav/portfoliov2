@@ -145,6 +145,8 @@
     height: 78vh;
     overflow: scroll;
     color: white;
+    font-family: 'Roboto', sans-serif;
+
     /*grid-template-columns: 1fr 1fr;*/
     /*grid-template-rows: auto;*/
     /*overflow: scroll;*/
@@ -155,6 +157,18 @@
     color:blue;
 }
 
+
+.skills-c{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+.skills-i{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(2,80px);
+
+}
 
 
 

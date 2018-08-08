@@ -48,6 +48,7 @@ import BooksRead from "./components/BooksRead";
 import BooksApp from "./components/MyReads/BooksApp";
 import Seas from "./components/Seas";
 import ContactInfo from "./components/ContactInfo";
+import ThisApp from "./components/ThisApp";
 
 
 const drawerWidth = 240;
@@ -121,7 +122,7 @@ class NavDrawer extends React.Component {
 
 
     async componentDidMount() {
-        // this.props.history.push('/portfolio/Professional-Experience/Teradata')
+        this.props.history.push('/portfolio/About-Me')
         this.props.getNavbarData()
 
 
@@ -236,6 +237,8 @@ class NavDrawer extends React.Component {
                            component={AwsMetrics}/>
                     <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('Customer Onboarding Wizard\n(React)')}`}
                            component={CustomerOnboarding}/>
+                    <Route exact path={`/portfolio/${slug('Web Apps')}/${slug('This-App-ReactRedux')}`}
+                           component={ThisApp}/>
 
                     <Route exact path={`/portfolio/${slug('Technical Skills')}`} component={TechnicalSkills}/>
 

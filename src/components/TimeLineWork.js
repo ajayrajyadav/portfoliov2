@@ -71,7 +71,9 @@ const data = {
             'jobTitle':'',
             'company':'Moving Elves',
             'date':'',
-            'summary':'\nApplied Customer Process using principles from the book Startup Owners Manual and The Lean Launchpad',
+            'summary':'\nAssisted my partner to develop a lean business plan to identify goals, target market, competition, marketing activities, and sales forecasts.\n' +
+            'Tested a series of unproven hypothesis about company’s business model to understand who the customers are, what the product features should be, and how this would scale into a successful company.\n' +
+            'Developed UI mockups to receive feedback from initial users about product, price and positioning, preventing costs and risks if the product fails.',
             'link':'',
             'color':{ background: '#4f5dff', color: '#fff' }
 
@@ -103,17 +105,17 @@ const data = {
             'color':{ background: '#ff4f4c', color: '#fff' }
 
         },
-    'Jan 2016':
-        {
-            'type':'startup',
-            'title':'Founder',
-            'jobTitle':'',
-            'company':'Quantitative Finance Machine Learning Strategies',
-            'summary':'\n...',
-            'link':'',
-            'color':{ background: '#4f5dff', color: '#fff' }
-
-        },
+    // 'Jan 2016':
+    //     {
+    //         'type':'startup',
+    //         'title':'Founder',
+    //         'jobTitle':'',
+    //         'company':'Quantitative Finance Machine Learning Strategies',
+    //         'summary':'\n...',
+    //         'link':'',
+    //         'color':{ background: '#4f5dff', color: '#fff' }
+    //
+    //     },
     'Sept 2015 - Nov 2016':
         {
             'type':'work',
@@ -210,7 +212,7 @@ const data = {
         'title':'Founder',
         'jobTitle':'',
         'company':'cMoy Headphone Amplifier',
-        'summary':'\nLorem mi sum Lorem mi sum Lorem mi sum Lorem mi sum Lorem mi sum Lorem mi sum Lorem mi sum ',
+        'summary':'\nDesigned & sold headphone amplifiers, which incorporated dual OPA2134 OPAMP to amplify the audio signal.',
         'link':'',
         'color':{ background: '#4f5dff', color: '#fff' }
 
@@ -229,7 +231,7 @@ class TimeLineWork extends Component {
         <Paper square={'true'} style={{background:'#e1e1e1'}}>
             <VerticalTimeline>
                 {
-                    Object.keys(data).map(d=>(
+                    Object.keys(data).reverse().map(d=>(
 
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"

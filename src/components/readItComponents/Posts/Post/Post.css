@@ -2,11 +2,12 @@
     display: grid;
     grid-template-rows:auto;
     grid-template-columns: 1fr;
-    height: 100vh;
+    /*height: 100vh;*/
     background: #a39cef;
     text-decoration: none;
     color: white;
-    overflow: scroll;
+    /*overflow: scroll;*/
+
 
 }
 
@@ -16,6 +17,8 @@
     overflow: scroll;
     text-decoration: none;
     color: white;
+    height: 57.5vh;
+
 
 
 }

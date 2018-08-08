@@ -22,7 +22,7 @@ const data = {
         'My Books\n(React)': '',
         'AWS Metrics Dashboard\n(MEAN + Python)': '',
         'Customer Onboarding Wizard\n(React)': '',
-        'This App  ❤️\n(React/Redux)': ''
+        'This App ⭐️\n(React/Redux)': ''
     },
     'Technical Skills': '',
     'Professional Experience': {

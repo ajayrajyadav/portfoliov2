@@ -5,6 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import * as slug from "slug";
 import Link from "react-router-dom/es/Link";
 import Title from "./Title";
+import TechnologiesKnown from "./TechnologiesKnown";
 
 const aboutMeData = {
     'Name': 'Karan Sagoo',
@@ -12,7 +13,8 @@ const aboutMeData = {
     'Employment status': 'Employed at Teradata',
     'Certifications': 'Amazon AWS Certified Solution Architect, Agile Certified Scrum Master',
     'Possible next six month goals ': 'GraphQL, Redis, Jest/Mocha, CI/CD, React with Typescript',
-    'Resume': <Link to={`/portfolio/${slug('Resume')}/`}><img src="https://png.icons8.com/color/50/000000/resume.png"/></Link>
+    'Resume': <Link to={`/portfolio/${slug('Resume')}/`}><img src="https://png.icons8.com/color/50/000000/resume.png"/></Link>,
+    'Technical Skills':<TechnologiesKnown/>
 
 }
 
