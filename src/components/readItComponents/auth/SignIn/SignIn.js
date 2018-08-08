@@ -97,9 +97,16 @@ class SignIn extends Component {
             <div>
                     <Title   title={'Link to Github'}>
                     </Title>
-                <a href={'https://github.com/uberman4740/portfoliov2'}><img height='50px' width = '50px' src={'http://csis.pace.edu/~scharff/pacemobilelab/images/github.jpg'}/></a>
+                <div>
+                    <span>
+                        <a href={'https://github.com/uberman4740/portfoliov2'}><img height='50px' width = '50px' src={'http://csis.pace.edu/~scharff/pacemobilelab/images/github.jpg'}/></a>
+                        {' '}
+                        <a href={'https://github.com/uberman4740/serverless-readit-api'}><img height='50px' width = '50px' src={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/logos/serverless-square-icon-text.png'}/></a>
+                    </span>
 
-                <div className={'card-container'}>
+                </div>
+
+                <div style={{marginTop:'-100px'}} className={'card-container'}>
                 <IntroDialogue title={'Welcome to ReadIt!'}
                        content={'ReadIt! is a serverless Redux App with user authentication.\nLogin with default login credentials provided or make a new\naccount.'}
                        image={'https://s3.amazonaws.com/portfolio-assets-4740/assets/react_serverless_full_stack_app/1.png'}
