@@ -122,7 +122,7 @@ class NavDrawer extends React.Component {
 
 
     async componentDidMount() {
-        this.props.history.push('/portfolio/About-Me')
+        this.props.history.push('/portfolio/Web-Apps/ReadIt-AWS-Serverless-React-Redux/signin')
         this.props.getNavbarData()
 
 

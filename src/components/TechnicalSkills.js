@@ -22,7 +22,7 @@ const skills = {
         {type: "Amazon Lambda", level: 80},
         {type: "Amazon Cognito", level:80 },
         {type: "Amazon CloudFront", level: 80},
-        {type: "C++", level: 30},
+        {type: "C", level: 30},
 
 
 

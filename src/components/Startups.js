@@ -21,7 +21,9 @@ const styles = theme => ({
 });
 const data = [
     {
-        'summary': 'Applied Customer Process using principles from the book Startup Owners Manual and The Lean Launchpad',
+        'summary': 'Approached 10 customers every week for 4 months to: identify potential customers,\n ' +
+        'product features, test a series of unproven hypothesis about company’s business model, & how the product would scale into a successful company.\n'+
+        'Assisted co-founder to develop a lean business plan to identify goals, target market, competition, & sales forecasts.',
         'title': 'Moving Elves',
     },
 
@@ -35,13 +37,14 @@ const data = [
         'title': 'BlindHaptic',
         'summary': 'Developed a non-invasive system for blind people. The system consisted of three modules:\n' +
         '(1) Gesture controlled door unlock using MYO,\n' +
-        '(2) Automated door guidance using speakers\n' +
+        '(2) Automated door guidance using speakers,\n' +
         '(3) Three ultrasonic sensors,\n' +
         'for continuous dynamic haptic feedback based on object distance by using 4 ultrasonic sensors mounted on the chest.',
     },
     {
         'title': 'cMoy Headphone Amplifier',
-        'summary': 'Lorem mi sum Lorem mi sum Lorem mi sum Lorem mi sum Lorem mi sum Lorem mi sum Lorem mi sum ',
+        'summary': 'First venture into developing a product to sell while I was studying at UCLA.\n' +
+        'Designed & sold headphone 15 amplifiers, which incorporated dual OPA2134 OPAMP to amplify the audio signal.',
     },
 
 ]
@@ -51,7 +54,7 @@ class Startups extends Component {
         const {classes} = this.props;
 
         return (
-            <div>
+            <div style={{whiteSpace: 'pre-line'}}>
                 <Title title={'Startups'}>
                 </Title>
                 <div className={classes.root}>

@@ -61,7 +61,7 @@ const styles = theme => ({
 const data = [
     {
         'title': 'Platform Engineering',
-        'summary': 'Developed a solution that grabs cabinet power usage data from individual Mellanox Switches, Servers, NetApp Controllers.',
+        'summary': 'Developed a web app (front and back end) that grabs cabinet power usage data from individual Mellanox Switches, Servers, NetApp Controllers.',
         'date': 'Nov 2016 - Jun 2017',
         'S': 'Measuring Teradata system (nodes, Mellanox switches, NetApp controllers and storage arrays) power usage was manual process using multimeters.\n' +
         'No infrastructure for performing analytics on system power usage.',
@@ -71,15 +71,24 @@ const data = [
         '  2. Cross dept. mini hackathon to compare the polling times related to different architectures\n' +
         'Developed:\n' +
         '  1. Individual scripts for grabbing data from each chassis type.\n' +
-        '  2. Central database for the power data and error data.\n' +
-        '  3. RPM package',
-        'R': 'Increased annual revenue by $24,000 and reduced 480 work hours by alleviating the need of multimeters to measure chassis power.\n' +
+        '  2. Central database for the power data and error data.',
+
+        'R':
+
         'Stretched the goal space by:\n' +
         '  1. Providing solution for multiple systems instead of just one.\n' +
-        '  2. Decreasing polling period for each system from 12 to 6 seconds.\n' +
+        '  2. Decreasing polling period for each system from 12 to 9 seconds.\n' +
         '  3. Providing API endpoints for end users who do not want to use CLI commands.\n' +
         '  4. Recognized company’s change management strategy of breaking down silos and initiated cross dept. and organization meetings and mini hackathon.',
-        'tech': 'Python',
+        'tech': 'Backend\n' +
+        '•\tPython – grabbing data from each chassis \n' +
+        '•\tMongoDB – database for storing power data and for errors data\n' +
+        '•\tNode – Server\n' +
+        '•\tNGINX – Reverse Proxy\n' +
+        'Front End\n' +
+        '•\tReact/Redux – Dashboard\n',
+
+
         'media': [
             {
                 label: 'How to be happy :)',
@@ -138,8 +147,8 @@ const data = [
         '•\tSocket.io – Serving live data to front end\n' +
         '•\tNGINX – reverse proxy for API calls from Angular to Node server\n\n' +
         'Front End\n' +
-        '•\tReact/Redux – Dashboard\n' +
-        '•\tReact-easy-chart - Live Graphing\n',
+        '•\tAngular – Dashboard\n' +
+        '•\tngx-charts - Live Graphing\n',
         'media': [{
             label: 'How to be happy :)',
             imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/r2/1.png',
@@ -194,24 +203,7 @@ const data = [
         ],
     },
 
-    {
-        'title': 'Teradata Excellence Award - Artificial Intelligence',
-        'summary': 'Architected and led a team of 4 to develop a POC for our automotive insurance client.\nLeveraged driver camera feed, AWS, and Teradata portfolio to predict distracted drivers. ',
-        'date': '',
-        'S': 'To do',
-        'T': 'To do',
-        'A': 'To do',
-        'R': 'To do',
-        'tech': 'To do',
-        'media': [
-            {
-                label: 'How to be happy :)',
-                imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/autonmous/2.jpg',
-            },
-            {label: 'How to be happy :)',
-            imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/autonmous/1.png',
-        }],
-    },
+
     {
         'title': 'Teradata Excellence Award - Service Analytics',
 
@@ -255,13 +247,20 @@ const data = [
         'date': '',
         'S': 'Company’s new product – Teradata Intellicloud, did not have a guided customer onboarding wizard.\n' +
         'Customer onboarding included back forth emails and phone calls that delayed customer onboarding, which at times costed the company ~$150K. ',
-        'T': 'Approached by Product Manager of the IntelliCloud team to develop a POC solution for a guided customer onboarding wizard that could eventually be included in the roadmap',
+        'T': 'Approached by Product Manager of the IntelliCloud team to develop a AWS based POC solution for a guided customer onboarding wizard that could eventually be included in the roadmap',
         'A': 'Developed and applied innovative logic of applying truth tables for providing solutions based on different answers provided by the customer.\n' +
         'Developed the front end of the customer on boarding wizard app.',
         'R': 'Developed POC is in yearly roadmap.\n' +
         'Designed customer onboarding wizard using truth tables has the potential to be used for new products.\n' +
         'Increased revenue and customer satisfaction by guidance wizard instead of email and phone calls\n',
-        'tech': 'React/Redux',
+        'tech': 'Backend\n' +
+        '•\tPython (boto3) – grabbing and storing AWS performance data\n' +
+        '•\tDynamoDB – database for Truth Table logic\n' +
+        '•\tLambda– Serveless API GET CALLS\n' +
+        '•\tCognito– Customer Login\n' +
+        '•\tAPI GATEWAY – API Calls\n\n' +
+        'Front End\n' +
+        '•\tReact/Redux – Dashboard\n',
         'media': [
             {
                 label: 'How to be happy :)',
