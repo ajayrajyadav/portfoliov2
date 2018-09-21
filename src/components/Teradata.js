@@ -89,44 +89,8 @@ const data = [
         '•\tReact/Redux – Dashboard\n',
 
 
-        'media': [
-            {
-                label: 'How to be happy :)',
-                imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/r1/1.png',
-            },
-            {
-                label: '1. Work with something that you like, like…',
-                imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/r1/2.png',
-            },
-            {
-                label: '2. Keep your friends close to you and hangout with them',
-                imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/r1/3.png',
-            },
-            {
-                label: '3. Travel everytime that you have a chance',
-                imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/r1/4.png',
-            },
-            {
-                label: '4. And contribute to Material-UI :D',
-                imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/r1/5.png',
-            },
-            {
-                label: '4. And contribute to Material-UI :D',
-                imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/r1/6.png',
-            },
-            {
-                label: '4. And contribute to Material-UI :D',
-                imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/r1/7.png',
-            },
-            {
-                label: '4. And contribute to Material-UI :D',
-                imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/r1/8.png',
-            },
-            {
-                label: '4. And contribute to Material-UI :D',
-                imgPath: 'https://s3.amazonaws.com/portfolio-assets-4740/assets/r1/9.png',
-            },
-        ]
+
+
     },
     {
         'title': 'Platform Cloud Engineering',

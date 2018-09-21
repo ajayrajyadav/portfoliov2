@@ -99,7 +99,7 @@ class SignIn extends Component {
                     </Title>
                 <div>
                     <span>
-                        <a href={'https://github.com/uberman4740/portfoliov2'}><img height='50px' width = '50px' src={'http://csis.pace.edu/~scharff/pacemobilelab/images/github.jpg'}/></a>
+                        <a href={'https://github.com/uberman4740/redditv4'}><img height='50px' width = '50px' src={'http://csis.pace.edu/~scharff/pacemobilelab/images/github.jpg'}/></a>
                         {' '}
                         <a href={'https://github.com/uberman4740/serverless-readit-api'}><img height='50px' width = '50px' src={'https://s3-us-west-2.amazonaws.com/assets.site.serverless.com/logos/serverless-square-icon-text.png'}/></a>
                     </span>
